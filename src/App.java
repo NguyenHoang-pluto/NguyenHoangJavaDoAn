@@ -187,6 +187,7 @@ do{
        		}
        		else if(option == 6) {
         	System.out.println("Cập nhật danh sách giảng viên");
+		upDateGiangVien();
         	}
             else if(option == 7){
                 return;
