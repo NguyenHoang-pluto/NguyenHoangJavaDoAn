@@ -1,0 +1,351 @@
+Số câu hỏi có trong danh sách :50
+KT1
+Tốc độ quay của đĩa cứng liên quan tới: 
+Dung lượng của ổ đĩa 
+Dung lượng và tốc độ của ổ đĩa
+Thời gian ghi/đọc thông tin trên đĩa
+Thời gian truy tìm các Sector
+Thời gian ghi/đọc thông tin trên đĩa
+KT2
+Địa chỉ từ C8000 đến C9FFF có bao nhiêu KROM tương ứng 
+32 KROM 
+8 KROM 
+16 KROM 
+128 KROM
+8 KROM 
+KT3
+Bộ đồng xử lý toán học có chức năng trợ giúp CPU xử lý 
+Các phép toán số học và logic với tốc độ nhanh và độ chính xác cao
+Các phép toán số học với số dấu chấm động với tốc độ nhanh
+Các phép toán lượng giác với độ chính xác cao
+Các phép toán số học với số dấu chấm động, các phép tinh logarit và lượng giác
+Các phép toán số học với số dấu chấm động, các phép tinh logarit và lượng giác
+KT4
+Trong chế độ thực địa chỉ vật lý của ô nhớ trong bộ nhớ vật lý được xác định từ địa chỉ logic như sau
+Địa chỉ vật lý = địa chỉ nền đoạn+Địa chỉ offset
+Địa chỉ vật lý = địa chỉ đoạn*10002+Địa chỉ offset
+Địa chỉ vật lý = địa chỉ đoạn*16h+Địa chỉ offset
+Địa chỉ vật lý = địa chỉ đoạn*10+Địa chỉ offset
+Địa chỉ vật lý = địa chỉ nền đoạn+Địa chỉ offset
+KT5
+Địa chỉ nền đoạn nhớ 
+là địa chỉ vật lý của ô nhớ có địa chỉ vật lý cao nhất trong đoạn nhớ đó
+là địa chỉ vật lý của ô nhớ có địa chỉ vật lý thấp nhất trong đoạn nhớ đó
+được xác định bằng Địa chỉ đoạn*10
+được xác định bằng Địa chỉ đoạn *10002
+là địa chỉ vật lý của ô nhớ có địa chỉ vật lý thấp nhất trong đoạn nhớ đó
+KT6
+Chọn ý đúng nhất: Trong máy vi tính, RAM 
+Là bộ nhớ chính trong máy tính
+Có chức năng chứa các phần mềm hệ thống (hệ điều hành)
+Có chức năng chứa dữ liệu của Chuong trình ứng dụng
+Là viết tắt của cụm từ Random Access Memory
+Là viết tắt của cụm từ Random Access Memory
+KT7
+Lệnh chuyển dữ liệu MOV [2345h], AX thực hiện công việc 
+chuyển giá trị 2345 vào thanh ghi AX
+chuyển giá trị trong ô nhớ DS:[2345h] vào AX
+chuyển giá trị trong AX vào ô nhớ DS:[2345h]
+chuyển giá trị trong ô nhớ SS:[2345h] vào AX
+chuyển giá trị trong AX vào ô nhớ DS:[2345h]
+KT8
+Kết quả của lệnh chuyển dữ liệu MOV [2345h],[72h] là: 
+Lỗi vì không chuyển trực tiếp giá trị từ ô nhớ sang ô nhớ
+Chuyển giá trị ô nhớ [72 h] vào ô nhớ [2345h].
+Chuyển giá trị  ô nhớ [72 h] vào ô nhớ DS:[2345h].
+Hoán đổi giá trị của 2 ô nhớ : 2345h và 72h
+Lỗi vì không chuyển trực tiếp giá trị từ ô nhớ sang ô nhớ
+KT9
+Trong kiến trúc xử lý 16 bít, cặp thanh ghi DS: SI 
+trỏ đến ô nhớ trong đoạn dữ liệu
+trỏ đến ô nhớ trong đoạn dữ liệu đích
+trỏ đến đoạn nhớ chứa ô nhớ trong đoạn dữ liệu
+trỏ đến ô nhớ chứa xâu ký tự
+trỏ đến ô nhớ trong đoạn dữ liệu
+KT10
+Trong kiến trúc CPU 16bits cặp thanh ghi nào quản lý sự hoạt động của đoạn ngăn xếp
+SS:SP
+CS:IP
+BP:SP
+DS:SI
+SS:SP
+KT11
+Trong CPU với 1 đường ống thực hiện lệnh theo 5 công đoạn thì khi áp dụng kỹ thuật đường ống
+tốc độ xử lý lệnh của CPU tăng lên 5 lần
+tốc độ xử lý lênh của CPU còn phụ thuộc vào địa chỉ toán hạng
+tốc độ xử lý lệnh của CPU chỉ tăng lên thực sự khi thực hiện ở cơ chế đơn nhiệm
+tốc độ xử lý lệnh của CPUchỉ tăng lên thực sự khi thực hiện ở cơ chế đa nhiệm
+tốc độ xử lý lênh của CPU còn phụ thuộc vào địa chỉ toán hạng
+KT12
+Với lệnh được thực hiện theo 5 giai đoạn thì theo kỹ thuật đường ống
+tốc độ xử lý lệnh sẽ tăng lên 5 lần
+trong một chu kỳ máy CPU thực hiện được 5 giai đoạn lệnh khác nhau của 5 lệnh
+trong một chu kỳ máy CPU thực hiện được 5 giai đoạn  của 5 lệnh khác nhau
+trong một chu kỳ máy CPU có thể thực hiện được tối đa 5 giai đoạn lệnh khác nhau của 5 lệnh
+trong một chu kỳ máy CPU có thể thực hiện được tối đa 5 giai đoạn lệnh khác nhau của 5 lệnh
+KT13
+Với lệnh được thực hiện theo 5 giai đoạn và CPU có 2 đường ống thì theo kỹ thuật xử lý song song mức lệnh
+Tốc độ xử lý lệnh sẽ tăng lên 10 lần
+Trong một chu kỳ máy CPU thực hiện được 5 giai đoạn  của 2 lệnh khác nhau
+Trong một chu kỳ máy CPU có thể thực hiện được 2 giai đoạn lệnh giống nhau của nhau của 2 lệnh
+Câu trả lời khác
+Trong một chu kỳ máy CPU có thể thực hiện được 2 giai đoạn lệnh giống nhau của nhau của 2 lệnh
+KT14
+Để thực hiện chương trình đã có trong bộ nhớ thì 
+CPU nạp toàn bộ các lệnh từ bộ nhớ rồi giải mã ,thực hiện
+CPU nhập tuần tự các lệnh từ bộ nhớ, giải mã và thực hiện
+Bộ nhớ chủ động gửi lệnh và dữ liệu liên quan cho CPU thực hiện
+Các lệnh của chương trình đã được giải mã sẵn ở bộ nhớ, CPU chỉ việc nhập và thực hiện
+CPU nhập tuần tự các lệnh từ bộ nhớ, giải mã và thực hiện
+KT15
+Thành phần quan trọng nhất của máy tính số là: 
+Bộ nhớ trong 
+CPU 
+Bộ nhớ ngoài 
+Các thiết bị vào/ra dữ liệu
+CPU
+KT16
+Để thực hiện việc đọc/ghi dữ liệu giữa CPU và bộ nhớ cần sử dụng đến
+chỉ Bus dữ liệu là đủ
+Bus dữ liệu để truyền dữ liệu và bus điều khiển để điều khiển việc truyền dữ liệu
+Bus dữ liệu và bus địa chỉ
+Cả bus dữ liệu bus điều khiển và bus địa chỉ
+Cả bus dữ liệu bus điều khiển và bus địa chỉ
+KT17
+Trong máy vi tính PC địa chỉ vật lý của các thiết bị vào/ra do: 
+Hệ điều hành gán cho thiết bị
+Người sử dụng gán cho thiết bị
+Nhà sản xuất gán cho thiết bị
+Trình điều khiển gán cho thiết bị
+Nhà sản xuất gán cho thiết bị
+KT18
+Chương trình đầu tiên máy tính PC thực hiện khi khởi động là: 
+Chương trình kiểm tra hệ thống POST
+Chương trình điều khiển các thiết bị chuẩn
+Chương trình đọc cung khởi động
+Chương trình quét ROM mở rộng
+Chương trình kiểm tra hệ thống POST
+KT19
+Trong PC bộ phận phần cứng nào sau đây đóng vai trò điều khiển hầu hết các thiết bị khác:
+Bộ nhớ
+Ổ đĩa cứng
+Bản mạch chính  
+Vi xử lý trung tâm
+Vi xử lý trung tâm
+KT20
+Với 24 đường địa chỉ vi xử lý trung tâm có thể quản lý được bộ nhớ vật lý với dung lượng tối đa là:
+24MB
+24KB
+242Bytes
+224 Bytes
+224 Bytes
+KT21
+Những chương trình đầu tiên được thực hiện khi khởi động máy vi tính PC nằm ở:
+Bộ nhớ RAM
+ổ đĩa khởi động
+Bộ nhớ ROM
+Thiết bị CMOS
+Bộ nhớ ROM
+KT22
+Trong cơ chế quản lý bộ nhớ theo phân đoạn chế độ thực sử dụng 20 bits địa chỉ, địa chỉ đoạn được hiểu là:
+Địa chỉ của đoạn nhớ
+Địa chỉ vật lý của ô nhớ nền đoạn
+16 bits cao nhất của địa chỉ vật lý ô nhớ nền đoạn
+Địa chỉ logic của ô nhớ nền đoạn
+16 bits cao nhất của địa chỉ vật lý ô nhớ nền đoạ
+KT23
+Máy tính không thể chạy được các chương trình được khi không có:
+Bộ nhớ
+Bàn phím
+Màn hình
+Chuột
+Bộ nhớ
+KT24
+Khẳng định nào là SAI trong các khẳng định sau: 
+Thiết bị ngoại vi được kết nối với CPU thông qua thiết bị giao diện
+Thiết bị giao diện nào thường cũng có 3 loại thanh ghi:dữ liệu, điều khiển, trạng thái
+Thiết bị giao diện được thiết kế tuân theo 1 chuẩn nào đó
+Sự có mặt của thiết bị giao diện là không cần thiết khi tốc độ làm việc của thiết bị ngoại vi ngang bằng với tốc độ làm việc của CPU
+Sự có mặt của thiết bị giao diện là không cần thiết khi tốc độ làm việc của thiết bị ngoại vi ngang bằng với tốc độ làm việc của CPU
+KT25
+Bus địa chỉ trong máy tính 
+Truyền các tín hiệu địa chỉ từ bộ nhớ tới CPU
+Truyền các tín hiệu địa chỉ từ CPU tới bộ nhớ và tới các thiết bị vào ra(1)
+Dùng đề truyền các tín hiệu địa chỉ từ DMAC tới bộ nhớ, từ DMAC tới các thiết bị vào/ra(2)
+Kết hợp (1) và (2)
+Kết hợp (1) và (2)
+KT26
+Mã lệnh là: 
+Mật mã cho biết lệnh cần thực hiện nằm ở đâu trong bộ nhớ
+Chuỗi số nhị phân chứa thông tin về các thao tác cần thiết để thực hiện lệnh
+Chuỗi số nhị phân chỉ ra lệnh nằm ở đâu trong bộ nhớ
+Là chuỗi số nhị phân do người lập trình gán cho câu lệnh
+Chuỗi số nhị phân chứa thông tin về các thao tác cần thiết để thực hiện lệnh
+KT27
+Khả năng quản lý bộ nhớ vật lý của CPU phụ thuộc vào
+Số đường bus địa chỉ
+Số đường bus dữ liệu
+Các đường địa chỉ và đường dữ liệu
+Số lượng đường địa chỉ và đường dữ liệu
+Số đường bus địa chỉ
+KT28
+Trong một đoạn chương trình viết bằng ASM có đoạn mã sau: MOV Ax,[Bx] ;Ý nghĩa của lệnh trên là
+Đưa nội dung của BX vào Ax
+Đưa nội dung ô nhớ có địa chỉ logic nằm trong Bx vào Ax
+Đưa nội dung ô nhớ có địa chỉ vật lý nằm trong Bx vào Ax
+Đưa nội dung ô nhớ có địa chỉ đoạn nằm trong DS, địa chỉ offset nằm trong Bx vào Ax
+Đưa nội dung ô nhớ có địa chỉ đoạn nằm trong DS, địa chỉ offset nằm trong Bx vào Ax
+KT29
+Trong cơ chế quản lý phân đoạn chế độ bảo vệ, bộ mô tả đoạn nằm trong
+Bảng LDT, GDT hoặc IDT
+Chỉ nằm trong LDT
+Chỉ nằm trong GDT
+Nằm ở GDT và LDT
+Nằm ở GDT và LDT
+KT30
+Thực hiện lệnh theo cơ chế đường ống 
+Làm tăng tốc độ thực hiện lệnh lên nhiều lần so với cách thực hiện tuần tự hết các giai đoạn của lệnh rồi mới chuyển sang lệnh khác (1)
+Chỉ thực hiện được với vi xử lý intel pentium trở đi (2)
+Cũng có trường hợp làm giảm tốc độ thực hiện lệnh (3)
+Kết hợp (1) và (3)
+Làm tăng tốc độ thực hiện lệnh lên nhiều lần so với cách thực hiện tuần tự hết các giai đoạn của lệnh rồi mới chuyển sang lệnh khác (1)
+KT31
+Hoạt động đa nhiệm trong PC được hiểu là 
+Các nhiệm vụ được thực hiện song song tại cùng một thời điểm
+Các nhiệm vụ được thực hiện xen kẽ nhau
+Các nhiệm vụ được thực hiện tuần tự, thực hiện xong nhiệm vụ này rồi chuyển sang thực hiện nhiệm vụ khác
+CPU có thể thực hiện được nhiều nhiệm vụ
+Các nhiệm vụ được thực hiện xen kẽ nha
+KT32
+Trong kỹ thuật song song mức lệnh ILP 
+Các lệnh được thực hiện song song bởi 2 CPU
+Các lệnh được thực hiện đồng thời trên nhiều đường ống khác nhau
+Trong bất kì trường hợp nào cũng thực hiện được song song các lệnh trên các đường ống
+Chỉ có các lệnh có liên quan đến nhau mới có thể được thực hiện song song trên các đường ống
+Các lệnh được thực hiện đồng thời trên nhiều đường ống khác nhau
+KT33
+Trong cơ chế quản lý bộ nhớ trong chế độ thực ES : OFFSET trỏ tới
+Ô nhớ trong đoạn mã lệnh
+Ô nhớ trong đoạn dữ liệu
+Ô nhớ trong đoạn mở rộng
+Ô nhớ trong đoạn ngăn xếp
+Ô nhớ trong đoạn mở rộng
+KT34
+Khẳng định nào là đúng 
+Thời gian để truy xuất dữ liệu từ bộ nhớ ROM ngắn hơn so với thời gian để truy xuất dữ liệu từ bộ nhớ RAM
+Người lập trình có thể thay đổi nội dung bộ nhớ ROM qua chương trình
+Không nhất thiết phải cần đến nguồn nuôi khi muốn đọc dữ liệu từ ROM
+Tốc độ đọc dữ liệu từ bộ nhớ ROM chậm hơn so với tốc độ đọc dữ liệu từ bộ nhớ RAM
+Tốc độ đọc dữ liệu từ bộ nhớ ROM chậm hơn so với tốc độ đọc dữ liệu từ bộ nhớ RAM
+KT35
+Trong chế độ thực ô nhớ có địa chỉ logic 3ACFh:1000h có địa chỉ vật lý là
+4BCF0h
+3BCE0h
+3BCF0h
+3BDF0h
+3BCF0h
+KT36
+Trong chế độ thực ô nhớ có địa chỉ logic 3001h:A599h có địa chỉ vật lý là
+3A5A9h
+3A609h
+D59Ah
+3A59Ah
+3A5A9h
+KT37
+Trong chế độ thực ô nhớ có địa chỉ vật lý là 4BCE0h có thể tương ứng với địa chỉ logic:
+4ACEh:1010h
+4ACEh:1100h
+4BCEh:0010h
+4BCDh:0010h
+4BCEh:0010h
+KT38
+Trong chế độ thực 2 ô nhớ có địa chỉ logic 3000h:A599h và 3001h:A589h là 2 ô nhớ
+Có địa chỉ vật lý liền kề
+Có cùng địa chỉ vật lý
+Thuộc 2 đoạn nhớ và có địa chỉ vật lý khác nhau
+Có địa chỉ vật lý sai khác nhau 10h
+Có cùng địa chỉ vật lý
+KT39
+Khi chạy đoạn chương trình: for i:= 1 to length(st) do writeln(st[i]). Với st là xâu ký tự thì nội dung thanh ghi
+DI tăng lên 1 sau mỗi lần lặp
+DI và SI giảm đi 1 sau mỗi lần lặp
+SI tăng lên 1 sau mỗi lần lặp
+DI và SI tăng lên 1sau mỗi lần lặp
+SI tăng lên 1 sau mỗi lần lặp
+KT40
+Khi chạy đoạn chương trình: for i:=length(st) down to 1 do writeln(st[i]). Với st là xâu ký tự thì nội dung thanh ghi
+DI và SI tăng lên 1sau mỗi lần lặp
+DI và SI giảm đi 1 sau mỗi lần lặp
+SI giảm đi 1 sau mỗi lần lặp
+DI giảm đi 1 sau mỗi lần lặp
+SI giảm đi 1 sau mỗi lần lặp
+KT41
+Khi CPU thực hiện phép tính 10012 – 10112 thì kết quả thực hiện phép tính sẽ tác động lên bit cờ
+CF
+AF
+SF
+ZF
+SF
+KT42
+Khi CPU thực hiện lệnh với số lần lặp là 10 thì giá trị bắt đầu của
+Thanh ghi CX=000Ah
+Thanh ghi CX=10h
+Byte cao của thanh ghi CX bằng 0000 1010b
+Byte thấp của thanh ghi CX bằng 00001010b
+Thanh ghi CX=000Ah
+KT43
+Khi CPU thực hiện lệnh vào ra dữ liệu với thiết bị có địa chỉ là 301h thì giá trị các bit trong thanh ghi DX là
+00000011000000012
+0011000000012
+11000000012
+Giá trị khác với các giá trị đã nêu trên
+00000011000000012
+KT44
+Giả sử CPU có 24 bits địa chỉ và bộ mô tả đoạn nhớ trong chế độ bảo vệ có giá trị XXXX789100006000h thì địa chỉ nền của đoạn nhớ sẽ là
+006000h
+891000h
+910000h
+789100h
+910000h
+KT45
+Khi CPU thực hiện lệnh theo kỹ thuật song song mức lệnh thì cách viết lệnh nào sau đây là hợp lý hơn
+a:= x + 10; b:=a + 10; (1)
+a:= x + 10; b:=x + 20; (2)
+b:= x + 20; a:=b -10;   (3)
+Cả (1) (2) (3) đều không thể thực hiện được theo kỹ thuật song song mức lệnh
+a:= x + 10; b:=x + 20; (2)
+KT46
+Khi thiết kế một máy tính trong một số trường hợp đặc biệt có thể bỏ qua (các) thành phần sau:
+Bộ nhớ(ROM,RAM)
+CPU
+Thiết bị nhập dữ liệu
+ROM
+Thiết bị nhập dữ liệu
+KT47
+Khi AH có giá trị là 12, AL có giá trị là 13 thì Ax có giá trị là
+1234
+1234h
+0C0Dh
+0D0Ch
+0C0Dh
+KT48
+Phép cộng nào sau đây không thực hiện được 
+Phép cộng AH và AL
+Phép cộng BH và DL
+Phép cộng CX và AL
+Phép cộng CX và AX
+Phép cộng CX và AL
+KT49
+Trong máy tính số, bộ nhớ DRAM được coi là 
+Bộ nhớ bán dẫn tĩnh
+Bộ nhớ bán dẫn động
+Bộ nhớ Cache
+Bộ nhớ bán dẫn
+Bộ nhớ bán dẫn động
+KT50
+Cấu trúc một khối Cache gồm các phần 
+Số hiệu thẻ - bit cờ F – khối dữ liệu
+Số thứ tự khối cache – bit cờ F – khối dữ liệu
+Vị trí khối trong Cache – bit cờ F – khối dữ liệu
+Khối dữ liệu – số thứ tự khối cache - Vị trí khối trong Cache
+Số hiệu thẻ - bit cờ F – khối dữ liệu

@@ -1,0 +1,28 @@
+TH
+Triết học
+45
+25
+MC
+Môn Chung 
+3
+KTMT
+Kiến Trúc Máy tính
+45
+25
+CNTT
+Công Nghệ Thông Tin
+4
+MMT
+Mạng Máy Tính
+45
+25
+CNTT
+Công Nghệ Thông Tin
+2
+KTVM
+Kinh Tế Vĩ Mô
+45
+25
+QTKD
+Quản Trị Kinh Doanh
+3

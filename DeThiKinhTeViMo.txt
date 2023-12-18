@@ -1,0 +1,176 @@
+Số lượng câu hỏi:25
+MACRO30
+Khoản mục nào dưới đây không được coi là mua hàng của chính phủ:
+Chính phủ mua một máy bay ném bom.
+Khoản tiền trợ cấp xã hội mà bà của bạn nhận được.
+Chính phủ xây một con đê mới.
+Thành phố Hà Nội tuyển dụng thêm một nhân viên cảnh sát mới.
+Khoản tiền trợ cấp xã hội mà bà của bạn nhận được.
+MACRO43
+Tổng sản phẩm trong nước không thể được tính bằng tổng của.
+Tiêu dùng, chuyển giao thu nhập, tiền lương và lợi nhuận.
+Đầu tư, tiền lương, lợi nhuận, và hàng hóa trung gian.
+Hàng hoá và dịch vụ cuối cùng, hàng hóa trung gian, chuyển giao thu nhập và tiền thuê.
+Tất cả các câu trên.
+Tất cả các câu trên.
+MACRO21
+Chủ đề nào dưới đây được kinh tế vĩ mô quan tâm nghiên cứu?
+Chính sách tài khóa.
+Chính sách tiền tệ.
+Lạm phát.
+Tất cả các câu trên.
+Tất cả các câu trên.
+MACRO3
+Kinh tế vĩ mô ít đề cập nhất đến:
+Sự thay đổi giá cả tương đối.
+Sự thay đổi mức giá chung.
+Thất nghiệp.
+Mức sống.
+Sự thay đổi giá cả tương đối.
+MACRO14
+Giả sử hãng Honda vừa xây một nhà máy mới ở Vĩnh Phúc, thì:
+Trong tương lai, GDP của Việt Nam sẽ tăng nhanh hơn GNP.
+Trong tương lai, GDP của Việt Nam sẽ tăng chậm hơn GNP.
+Trong tương lai, cả GDP và GNP của Việt Nam đều giảm vì một phần thu nhập tạo ra phải trả cho người nước ngoài.
+Đã có sự tăng lên về đầu tư nước ngoài gián tiếp tại Việt Nam.
+Trong tương lai, GDP của Việt Nam sẽ tăng nhanh hơn GNP.
+MACRO27
+Theo số liệu của Tổng cục Thống kê tốc độ tăng GDP thực tế của Việt Nam năm 2006 là 8,2%. Điều đó có nghĩa là:
+GDP danh nghĩa của năm 2006 bằng 108,2% so với năm gốc.
+GDP danh nghĩa của năm 2006 bằng 108,2% so với năm 2005.
+GDP tính theo giá cố định của năm 2006 bằng 108,2% so với năm gốc.
+GDP tính theo giá cố định của năm 2006 bằng 108,2% so với năm 2005.
+GDP tính theo giá cố định của năm 2006 bằng 108,2% so với năm 2005.
+MACRO7
+Tổng sản phẩm quốc dân (GNP) của Việt Nam đo lường thu nhập.
+Mà người Việt Nam tạo ra ở cả trong và ngoài nước.
+Tạo ra trên lãnh thổ Việt Nam.
+Của khu vực dịch vụ trong nước.
+Của khu vực sản xuất vật chất trong nước.
+Mà người Việt Nam tạo ra ở cả trong và ngoài nước.
+MACRO50
+Khi tính GDP thì việc cộng hai khoản mục nào dưới đây là không đúng?
+Chi tiêu của chính phủ với tiền lương.
+Lợi nhuận công ty và tiền lãi nhận được từ việc cho công ty vay tiền.
+Chi tiêu cho đầu tư và chi tiêu chính phủ.
+Tiêu dùng của dân cư và chi tiêu chính phủ.
+Chi tiêu của chính phủ với tiền lương.
+MACRO37
+Khoản mục nào sau đây được tính một cách trực tiếp trong GDP theo cách tiếp cận chi tiêu?
+Công việc nội trợ.
+Hoạt động mua bán ma tuý bất hợp pháp.
+Giá trị hàng hóa trung gian.
+Dịch vụ tư vấn.
+Dịch vụ tư vấn.
+MACRO26
+Theo số liệu của Tổng cục Thống kê tốc độ tăng GDP thực tế của Việt Nam năm 2005 là
+7,8%.
+8,4%.
+8,2%.
+6,6%
+8,4%.
+MACRO49 
+GDP thực tế đo lường theo mức giá ___________, còn GDP danh nghĩa đo lường theo mức giá ___________
+Năm hiện hành, năm cơ sở.
+Năm cơ sở, năm hiện hành.
+Của hàng hóa trung gian, của hàng hóa cuối cùng.
+Quốc tế, trong nước.
+Năm cơ sở, năm hiện hành.
+MACRO36
+Khoản mục nào sau đây không được tính một cách trực tiếp trong GDP của Việt Nam theo cách tiếp cận chi tiêu?
+Dịch vụ giúp việc mà một gia đình thuê.
+Dịch vụ tư vấn luật mà một gia đình thuê.
+Sợi bông mà công ty dệt 8-3 mua và dệt thành vải.
+Giáo trình bán cho sinh viên.
+Sợi bông mà công ty dệt 8-3 mua và dệt thành vải.
+MACRO16 
+Điều nào dưới đây không phải là cách mà các hộ gia đình sử dụng tiết kiệm của mình?
+Cho chính phủ vay tiền.
+Cho người nước ngoài vay tiền.
+Cho các nhà đầu tư vay tiền.
+Đóng thuế.
+Đóng thuế.
+MACRO33
+Theo cách tiếp cận chi tiêu trong việc tính GDP, khoản mục chi tiêu của các hộ gia đình mua nhà ở mới được tính là:
+Tiêu dùng.
+Đầu tư.
+Mua hàng của chính phủ.
+Xuất khẩu ròng.
+Đầu tư.
+MACRO5
+Tổng sản phẩm trong nước (GDP) là:
+Tổng giá trị của tất cả các hàng hóa và dịch vụ tạo ra trên lãnh thổ một nước trong một thời kỳ nhất định
+Tổng giá trị của tất cả các hàng hoá và dịch vụ cuối cùng tạo ra trên lãnh thổ một nước trong một thời kỳ nhất định
+Tổng giá trị của tất cả các hàng hoá và dịch vụ cuối cùng do các công dân trong nước sản xuất ra trong một thời kỳ nhất định.
+Tổng giá trị của tất cả các hàng hóa và dịch vụ sản xuất ra tại một thời điểm nhất định, ví dụ ngày 31 tháng 12 năm 2009.
+Tổng giá trị của tất cả các hàng hoá và dịch vụ cuối cùng tạo ra trên lãnh thổ một nước trong một thời kỳ nhất định
+MACRO40
+Những khoản mục nào sau đây không được tính vào GDP của năm nay?
+Máy tính cá nhân sản xuất từ năm trước được một sinh viên mua để chuẩn bị cho thi học kỳ.
+Một chiếc ôtô mới được nhập khẩu từ nước ngoài.
+Nhà máy giày Thượng Đình vừa xuất khẩu một lô hàng được sản xuất từ năm trước.
+Tất cả các câu trên.
+Tất cả các câu trên.
+MACRO32
+Theo cách tiếp cận chi tiêu trong việc tính GDP, khoản tiền mà thành phố Hà Nội chi để nâng cấp các đường giao thông nội thị được tính là:
+Tiêu dùng.
+Đầu tư.
+Mua hàng của chính phủ.
+Xuất khẩu ròng.
+Mua hàng của chính phủ.
+MACRO24
+Vấn đề nào sau đây không được các nhà kinh tế vĩ mô quan tâm nghiên cứu
+Các yếu tố quyết định lạm phát.
+Thị phần tương đối giữa ACB và SACOMBANK trên thị trường.
+Tăng trưởng GDP thực tế của Việt Nam.
+Cán cân thương mại của Việt Nam.
+Thị phần tương đối giữa ACB và SACOMBANK trên thị trường.
+MACRO45
+Nếu bạn muốn so sánh sản lượng giữa hai năm, bạn cần dựa vào:
+GDP thực tế.
+GDP danh nghĩa.
+GDP tính theo giá cố định của năm gốc.
+A và C đúng.
+A và C đúng.
+MACRO19
+Muốn tính GNP từ GDP của một nước chúng ta phải:
+Trừ đi chuyển giao thu nhập của chính phủ cho các hộ gia đình.
+Cộng với thuế gián thu.
+Cộng với xuất khẩu ròng.
+Cộng với thu nhập ròng của dân cư trong nước kiếm được ở nước ngoài.
+Cộng với thu nhập ròng của dân cư trong nước kiếm được ở nước ngoài.
+MACRO31
+Thành phần lớn nhất trong GDP của Việt Nam là:
+Tiêu dùng.
+Đầu tư.
+Mua hàng của chính phủ.
+Xuất khẩu ròng.
+Tiêu dùng.
+MACRO44 
+GDP danh nghĩa:
+Được tính theo giá của năm gốc.
+Được tính theo giá cố định.
+Được sử dụng để phản ánh sự thay đổi của phúc lợi kinh tế theo thời gian.
+Được tính theo giá hiện hành.
+Được tính theo giá hiện hành.
+MACRO34 
+Theo cách tiếp cận chi tiêu trong việc tính GDP cho năm 2006, một lô hàng may mặc được sản xuất vào năm 2006 và được bán trong năm 2007 được tính là:
+Tiêu dùng.
+Đầu tư.
+Mua hàng của chính phủ.
+Xuất khẩu ròng.
+Đầu tư.
+MACRO20
+Muốn tính thu nhập quốc dân NI từ GNP, chúng ta phải trừ đi:
+Khấu hao.
+khấu hao và thuế gián thu.
+Khấu hao, thuế gián thu và lợi nhuận công ty.
+Khấu hao, thuế gián thu, lợi nhuận công ty và đóng bảo hiểm xã hội.
+khấu hao và thuế gián thu.
+MACRO29
+Trong tài khoản thu nhập quốc dân, khoản mục nào dưới đây không được tính trong đầu tư:
+Các doanh nghiệp mua máy móc và thiết bị mới.
+Việc mua cổ phiếu trên sàn giao dịch chứng khoán Hà Nội.
+Hộ gia đình mua nhà ở mới.
+Sự gia tăng của lượng hàng tồn kho trong các doanh nghiệp.
+Việc mua cổ phiếu trên sàn giao dịch chứng khoán Hà Nội.

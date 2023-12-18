@@ -1,0 +1,351 @@
+Số câu hỏi trong danh sách : 50
+MACRO1
+Giá trị gia tăng của một công ty được tính bằng:
+Doanh thu của công ty đó.
+Lợi nhuận của công ty đó.
+Giá trị tổng sản lượng trừ đi chi tiêu mua các sản phẩm trung gian.
+Bằng 0 xét trong dài hạn.
+Giá trị tổng sản lượng trừ đi chi tiêu mua các sản phẩm trung gian.
+MACRO2
+Kinh tế vĩ mô nghiên cứu:
+Thị trường quốc gia về từng sản phẩm như gạo, thịt lợn.
+Mức giá chung và lạm phát.
+Tỉ lệ thất nghiệp và cán cân thanh toán.
+Tất cả các điều trên.
+Tỉ lệ thất nghiệp và cán cân thanh toán.
+MACRO3
+Kinh tế vĩ mô ít đề cập nhất đến:
+Sự thay đổi giá cả tương đối.
+Sự thay đổi mức giá chung.
+Thất nghiệp.
+Mức sống.
+Sự thay đổi giá cả tương đối.
+MACRO4
+Chỉ tiêu nào dưới đây được coi là quan trọng nhất để đánh giá thành tựu kinh tế của một quốc gia trong dài hạn?
+Tăng trưởng GDP danh nghĩa.
+Tăng trưởng GDP thực tế.
+Tăng trưởng GDP thực tế bình quân đầu người
+Tăng trưởng khối lượng tư bản.
+Tăng trưởng GDP thực tế bình quân đầu người
+MACRO5
+Tổng sản phẩm trong nước (GDP) là:
+Tổng giá trị của tất cả các hàng hóa và dịch vụ tạo ra trên lãnh thổ một nước trong một thời kỳ nhất định
+Tổng giá trị của tất cả các hàng hoá và dịch vụ cuối cùng tạo ra trên lãnh thổ một nước trong một thời kỳ nhất định
+Tổng giá trị của tất cả các hàng hoá và dịch vụ cuối cùng do các công dân trong nước sản xuất ra trong một thời kỳ nhất định.
+Tổng giá trị của tất cả các hàng hóa và dịch vụ sản xuất ra tại một thời điểm nhất định, ví dụ ngày 31 tháng 12 năm 2009.
+Tổng giá trị của tất cả các hàng hoá và dịch vụ cuối cùng tạo ra trên lãnh thổ một nước trong một thời kỳ nhất định
+MACRO6
+Tổng sản phẩm trong nước (GDP) của Việt Nam đo lường thu nhập.
+Mà người Việt Nam tạo ra ở cả trong và ngoài nước tạo ra trên lãnh thổ Việt Nam.
+Của khu vực dịch vụ trong nước.
+Của khu vực sản xuất vật chất trong nước.
+Tổng sản phẩm được tạo ra trên lãnh thổ Việt Nam không kể là người Việt Nam hay người nước ngoài tạo ra
+Tổng sản phẩm được tạo ra trên lãnh thổ Việt Nam không kể là người Việt Nam hay người nước ngoài tạo ra
+MACRO7
+Tổng sản phẩm quốc dân (GNP) của Việt Nam đo lường thu nhập.
+Mà người Việt Nam tạo ra ở cả trong và ngoài nước.
+Tạo ra trên lãnh thổ Việt Nam.
+Của khu vực dịch vụ trong nước.
+Của khu vực sản xuất vật chất trong nước.
+Mà người Việt Nam tạo ra ở cả trong và ngoài nước.
+MACRO8 
+Một ví dụ về chuyển giao thu nhập trong hệ thống tài khoản quốc gia là:
+Tiền thuê.
+Trợ cấp cho đồng bào miền Trung sau cơn bão số 6.
+Kinh phí mà nhà nước cấp cho Bộ giáo dục & Đào tạo để trả lương cho cán bộ công nhân viên.
+Câu B và C đúng.
+Trợ cấp cho đồng bào miền Trung sau cơn bão số 6.
+MACRO9
+Giá trị hao mòn của nhà máy và các trang thiết bị trong quá trình sản xuất hàng hoá và dịch vụ được gọi là:
+Tiêu dùng.
+Khấu hao.
+Đầu tư.
+Hàng hoá trung gian.
+Khấu hao.
+MACRO10 
+10 Khoản mục nào sau đây được coi là đầu tư trong hệ thống tài khoản thu nhập quốc dân?
+Một người thợ gốm mua một chiếc xe tải mới để chở hàng và đi dự các buổi trưng bày nghệ thuật vào cuối tuần.
+Gia đình bạn mua 100 cổ phiếu trên thị trường chứng khoán.
+Gia đình bạnmua một ngôi nhà 100 năm tuổi nằm trong khu di tích lịch sử được bảo vệ.
+Tất cả các câu trên đều đúng.
+Một người thợ gốm mua một chiếc xe tải mới để chở hàng và đi dự các buổi trưng bày nghệ thuật vào cuối tuần.
+MACRO11
+Sản phẩm trung gian có thể được định nghĩa là sản phẩm:
+Được bán cho người sử dụng cuối cùng.
+Được sử dụng để sản xuất ra hàng hóa và dịch vụ khác.
+Được tính trực tiếp vào GDP.
+Được mua trong năm nay, nhưng được sử dụng trong những năm sau đó.
+Được sử dụng để sản xuất ra hàng hóa và dịch vụ khác.
+MACRO12
+Lợi nhuận do một công ty Việt Nam tạo ra tại Mátxcơva sẽ được tính vào:
+Cả GDP và GNP của Việt Nam.
+GDP của Việt Nam và GNP của Nga.
+Cả GDP và GNP của Nga.
+GNP của Việt Nam và GDP của Nga.
+GNP của Việt Nam và GDP của Nga.
+MACRO13
+Lợi nhuận do một công ty Nhật Bản tạo ra tại Việt Nam sẽ được tính vào:
+Cả GDP và GNP của Việt Nam.
+GDP của Việt Nam và GNP của Nhật Bản
+Cả GDP và GNP của Nhật Bản.
+GNP của Việt Nam và GDP của Nhật Bản.
+GDP của Việt Nam và GNP của Nhật Bản
+MACRO14
+Giả sử hãng Honda vừa xây một nhà máy mới ở Vĩnh Phúc, thì:
+Trong tương lai, GDP của Việt Nam sẽ tăng nhanh hơn GNP.
+Trong tương lai, GDP của Việt Nam sẽ tăng chậm hơn GNP.
+Trong tương lai, cả GDP và GNP của Việt Nam đều giảm vì một phần thu nhập tạo ra phải trả cho người nước ngoài.
+Đã có sự tăng lên về đầu tư nước ngoài gián tiếp tại Việt Nam.
+Trong tương lai, GDP của Việt Nam sẽ tăng nhanh hơn GNP.
+MACRO15
+Giả sử rằng khối lượng tư bản trong năm của một nền kinh tế tăng lên. Điều gì đã xảy ra?
+Đầu tư ròng lớn hơn tổng đầu tư.
+Đầu tư ròng lớn hơn không.
+Khấu hao lớn hơn đầu tư ròng.
+Khấu hao mang giá trị dương.
+Đầu tư ròng lớn hơn không.
+MACRO16 
+Điều nào dưới đây không phải là cách mà các hộ gia đình sử dụng tiết kiệm của mình?
+Cho chính phủ vay tiền.
+Cho người nước ngoài vay tiền.
+Cho các nhà đầu tư vay tiền.
+Đóng thuế.
+Đóng thuế.
+MACRO17 
+Giá trị sản lượng của một hãng trừ đi chi phí về các sản phẩm trung gian được gọi là:
+Xuất khẩu ròng.
+Giá trị gia tăng.
+Lợi nhuận.
+Khấu hao
+Giá trị gia tăng.
+MACRO18
+Sự chênh lệch giữa tổng đầu tư và đầu tư ròng:
+Giống như sự khác nhau giữa GNP và GDP.
+Giống như xuất khẩu ròng.
+Giống như sự khác nhau giữa GNP và NNP.
+Không phải những điều trên.
+Giống như sự khác nhau giữa GNP và NNP.
+MACRO19
+Muốn tính GNP từ GDP của một nước chúng ta phải:
+Trừ đi chuyển giao thu nhập của chính phủ cho các hộ gia đình.
+Cộng với thuế gián thu.
+Cộng với xuất khẩu ròng.
+Cộng với thu nhập ròng của dân cư trong nước kiếm được ở nước ngoài.
+Cộng với thu nhập ròng của dân cư trong nước kiếm được ở nước ngoài.
+MACRO20
+Muốn tính thu nhập quốc dân NI từ GNP, chúng ta phải trừ đi:
+Khấu hao.
+khấu hao và thuế gián thu.
+Khấu hao, thuế gián thu và lợi nhuận công ty.
+Khấu hao, thuế gián thu, lợi nhuận công ty và đóng bảo hiểm xã hội.
+khấu hao và thuế gián thu.
+MACRO21
+Chủ đề nào dưới đây được kinh tế vĩ mô quan tâm nghiên cứu?
+Chính sách tài khóa.
+Chính sách tiền tệ.
+Lạm phát.
+Tất cả các câu trên.
+Tất cả các câu trên.
+MACRO22
+Các mục tiêu của chính sách kinh tế vĩ mô bao gồm:
+Thất nghiệp thấp.
+Giá cả ổn định.
+Tăng trưởng kinh tế nhanh một cách bền vững.
+Tất cả các câu trên.
+Tất cả các câu trên.
+MACRO23
+Điều nào dưới đây không thuộc chính sách tài khóa?
+Chi tiêu chính phủ mua hàng hóa và dịch vụ.
+Chuyển giao thu nhập của chính phủ cho các hộ gia đình.
+NHNN Việt Nam mua trái phiếu chính phủ.
+Chính phủ vay tiền bằng cách phát hành trái phiếu.
+NHNN Việt Nam mua trái phiếu chính phủ.
+MACRO24
+Vấn đề nào sau đây không được các nhà kinh tế vĩ mô quan tâm nghiên cứu
+Các yếu tố quyết định lạm phát.
+Thị phần tương đối giữa ACB và SACOMBANK trên thị trường.
+Tăng trưởng GDP thực tế của Việt Nam.
+Cán cân thương mại của Việt Nam.
+Thị phần tương đối giữa ACB và SACOMBANK trên thị trường.
+MACRO25 
+Theo số liệu của Tổng cục Thống kê tốc độ tăng GDP thực tế của Việt Nam năm 2006 là:
+7,8%.
+8,4%.
+8,2%.
+6,6%
+8,2%.
+MACRO26
+Theo số liệu của Tổng cục Thống kê tốc độ tăng GDP thực tế của Việt Nam năm 2005 là
+7,8%.
+8,4%.
+8,2%.
+6,6%
+8,4%.
+MACRO27
+Theo số liệu của Tổng cục Thống kê tốc độ tăng GDP thực tế của Việt Nam năm 2006 là 8,2%. Điều đó có nghĩa là:
+GDP danh nghĩa của năm 2006 bằng 108,2% so với năm gốc.
+GDP danh nghĩa của năm 2006 bằng 108,2% so với năm 2005.
+GDP tính theo giá cố định của năm 2006 bằng 108,2% so với năm gốc.
+GDP tính theo giá cố định của năm 2006 bằng 108,2% so với năm 2005.
+GDP tính theo giá cố định của năm 2006 bằng 108,2% so với năm 2005.
+MACRO28
+Sự thay đổi của khối lượng tư bản bằng:
+Đầu tư cộng khấu hao.
+Đầu tư nhân khấu hao.
+Đầu tư trừ khấu hao.
+Đầu tư chia khấu hao.
+Đầu tư trừ khấu hao.
+MACRO29
+Trong tài khoản thu nhập quốc dân, khoản mục nào dưới đây không được tính trong đầu tư:
+Các doanh nghiệp mua máy móc và thiết bị mới.
+Việc mua cổ phiếu trên sàn giao dịch chứng khoán Hà Nội.
+Hộ gia đình mua nhà ở mới.
+Sự gia tăng của lượng hàng tồn kho trong các doanh nghiệp.
+Việc mua cổ phiếu trên sàn giao dịch chứng khoán Hà Nội.
+MACRO30
+Khoản mục nào dưới đây không được coi là mua hàng của chính phủ:
+Chính phủ mua một máy bay ném bom.
+Khoản tiền trợ cấp xã hội mà bà của bạn nhận được.
+Chính phủ xây một con đê mới.
+Thành phố Hà Nội tuyển dụng thêm một nhân viên cảnh sát mới.
+Khoản tiền trợ cấp xã hội mà bà của bạn nhận được.
+MACRO31
+Thành phần lớn nhất trong GDP của Việt Nam là:
+Tiêu dùng.
+Đầu tư.
+Mua hàng của chính phủ.
+Xuất khẩu ròng.
+Tiêu dùng.
+MACRO32
+Theo cách tiếp cận chi tiêu trong việc tính GDP, khoản tiền mà thành phố Hà Nội chi để nâng cấp các đường giao thông nội thị được tính là:
+Tiêu dùng.
+Đầu tư.
+Mua hàng của chính phủ.
+Xuất khẩu ròng.
+Mua hàng của chính phủ.
+MACRO33
+Theo cách tiếp cận chi tiêu trong việc tính GDP, khoản mục chi tiêu của các hộ gia đình mua nhà ở mới được tính là:
+Tiêu dùng.
+Đầu tư.
+Mua hàng của chính phủ.
+Xuất khẩu ròng.
+Đầu tư.
+MACRO34 
+Theo cách tiếp cận chi tiêu trong việc tính GDP cho năm 2006, một lô hàng may mặc được sản xuất vào năm 2006 và được bán trong năm 2007 được tính là:
+Tiêu dùng.
+Đầu tư.
+Mua hàng của chính phủ.
+Xuất khẩu ròng.
+Đầu tư.
+MACRO35 
+Theo cách tiếp cận chi tiêu trong việc tính GDP, khoản mục chi trả lương cho công nhân viên chức làm việc cho bộ máy quản lý nhà nước được tính là:
+Tiêu dùng.
+Đầu tư.
+Mua hàng của chính phủ.
+Không được tính vào GDP.
+Mua hàng của chính phủ.
+MACRO36
+Khoản mục nào sau đây không được tính một cách trực tiếp trong GDP của Việt Nam theo cách tiếp cận chi tiêu?
+Dịch vụ giúp việc mà một gia đình thuê.
+Dịch vụ tư vấn luật mà một gia đình thuê.
+Sợi bông mà công ty dệt 8-3 mua và dệt thành vải.
+Giáo trình bán cho sinh viên.
+Sợi bông mà công ty dệt 8-3 mua và dệt thành vải.
+MACRO37
+Khoản mục nào sau đây được tính một cách trực tiếp trong GDP theo cách tiếp cận chi tiêu?
+Công việc nội trợ.
+Hoạt động mua bán ma tuý bất hợp pháp.
+Giá trị hàng hóa trung gian.
+Dịch vụ tư vấn.
+Dịch vụ tư vấn.
+MACRO38 
+Những khoản mục nào sau đây sẽ được tính vào GDP năm nay?
+Máy in mới sản xuất ra trong năm nay được một công ty xuất bản mua.
+Máy tính cá nhân sản xuất trong năm trước được một sinh viên mua để chuẩn bị cho kỳ thi học kỳ.
+Một chiếc ôtô mới được nhập khẩu từ nước ngoài.
+Nhà máy giày Thượng Đình vừa xuất khẩu một lô hàng được sản xuất từ năm trước.
+Máy in mới sản xuất ra trong năm nay được một công ty xuất bản mua.
+MACRO39 
+Khoản mục nào sau đây không được tính vào GDP năm 2006 của Việt Nam?
+Một chiếc xe đạp sản xuất năm 2006 tại công ty xe đạp Thống nhất.
+Dịch vụ cắt tóc trong năm 2006.
+Dịch vụ của nhà môi giới bất động sản trong năm 2006.
+Một căn hộ được xây dựng năm 2005 và được bán lần đầu tiên trong năm 2006.
+Một căn hộ được xây dựng năm 2005 và được bán lần đầu tiên trong năm 2006.
+MACRO40
+Những khoản mục nào sau đây không được tính vào GDP của năm nay?
+Máy tính cá nhân sản xuất từ năm trước được một sinh viên mua để chuẩn bị cho thi học kỳ.
+Một chiếc ôtô mới được nhập khẩu từ nước ngoài.
+Nhà máy giày Thượng Đình vừa xuất khẩu một lô hàng được sản xuất từ năm trước.
+Tất cả các câu trên.
+Tất cả các câu trên.
+MACRO41 
+Câu bình luận về GDP nào sau đây là sai?
+GDP có thể được tính bằng cách sử dụng giá cả hiện hành hoặc giá cả năm gốc.
+Cả hàng hoá trung gian và hàng hoá cuối cùng đều được tính vào GDP.
+Chỉ tính những hàng hóa và dịch vụ được sản xuất ra trong thời kỳ nghiên cứu.
+GDP không tính các hàng hóa và dịch vụ nhập khẩu.
+Cả hàng hoá trung gian và hàng hoá cuối cùng đều được tính vào GDP.
+MACRO42 
+Tổng sản phẩm trong nước có thể được tính bằng tổng của:
+Tiêu dùng, đầu tư, chi tiêu chính phủ và xuất khẩu ròng tiêu dùng.
+Chuyển giao thu nhập, tiền lương và lợi nhuận.
+Đầu tư, tiền lương, lợi nhuận, và hàng hoá trung gian.
+Hàng hoá và dịch vụ cuối cùng, hàng hoá trung gian, chuyển giao thu nhập và tiền thuê
+Tiêu dùng, đầu tư, chi tiêu chính phủ và xuất khẩu ròng tiêu dùng.
+MACRO43
+Tổng sản phẩm trong nước không thể được tính bằng tổng của.
+Tiêu dùng, chuyển giao thu nhập, tiền lương và lợi nhuận.
+Đầu tư, tiền lương, lợi nhuận, và hàng hóa trung gian.
+Hàng hoá và dịch vụ cuối cùng, hàng hóa trung gian, chuyển giao thu nhập và tiền thuê.
+Tất cả các câu trên.
+Tất cả các câu trên.
+MACRO44 
+GDP danh nghĩa:
+Được tính theo giá của năm gốc.
+Được tính theo giá cố định.
+Được sử dụng để phản ánh sự thay đổi của phúc lợi kinh tế theo thời gian.
+Được tính theo giá hiện hành.
+Được tính theo giá hiện hành.
+MACRO45
+Nếu bạn muốn so sánh sản lượng giữa hai năm, bạn cần dựa vào:
+GDP thực tế.
+GDP danh nghĩa.
+GDP tính theo giá cố định của năm gốc.
+A và C đúng.
+A và C đúng.
+MACRO46 
+Câu nào dưới đây phản ánh sự khác nhau giữa GDP danh nghĩa và GDP thực tế?
+GDP thực tế chỉ bao gồm hàng hoá, trong khi GDP danh nghĩa bao gồm cả hàng hóa và dịch vụ.
+GDP thực tế được tính theo giá cố định của năm gốc, trong khi GDP danh nghĩa được tính theo giá hiện hành.
+GDP thực tế bằng GDP danh nghĩa trừ đi khấu hao.
+GDP thực tế bằng GDP danh nghĩa nhân với chỉ số điều chỉnh GDP.
+GDP thực tế được tính theo giá cố định của năm gốc, trong khi GDP danh nghĩa được tính theo giá hiện hành.
+MACRO47 
+Nếu mức sản xuất không thay đổi, trong khi giá cả của mọi hàng hoá đều tăng gấp đôi, khi đó:
+Cả GDP danh nghĩa và GDP thực tế đều không thay đổi.
+GDP thực tế không đổi, trong khi GDP danh nghĩa giảm một nửa.
+GDP thực tế không đổi, còn GDP danh nghĩa tăng gấp đôi.
+GDP thực tế tăng gấp đôi, còn GDP danh nghĩa không đổi.
+GDP thực tế không đổi, còn GDP danh nghĩa tăng gấp đôi.
+MACRO48 
+Nếu mức sản xuất không thay đổi và giá của mọi sản phẩm đều tăng gấp đôi so với năm gốc, khi đó chỉ số điều chỉnh GDP (GDP deflator) bằng:
+50
+100
+200
+Không đủ thông tin để tính.
+200
+MACRO49 
+GDP thực tế đo lường theo mức giá ___________, còn GDP danh nghĩa đo lường theo mức giá ___________
+Năm hiện hành, năm cơ sở.
+Năm cơ sở, năm hiện hành.
+Của hàng hóa trung gian, của hàng hóa cuối cùng.
+Quốc tế, trong nước.
+Năm cơ sở, năm hiện hành.
+MACRO50
+Khi tính GDP thì việc cộng hai khoản mục nào dưới đây là không đúng?
+Chi tiêu của chính phủ với tiền lương.
+Lợi nhuận công ty và tiền lãi nhận được từ việc cho công ty vay tiền.
+Chi tiêu cho đầu tư và chi tiêu chính phủ.
+Tiêu dùng của dân cư và chi tiêu chính phủ.
+Chi tiêu của chính phủ với tiền lương.
