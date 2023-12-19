@@ -7,7 +7,14 @@ public class GiaoVien extends Human{
 	public GiaoVien() {
 		
 	}
-
+	public GiaoVien(GiaoVien other) {
+        super(other);
+        this.id = other.id;
+        this.khoa = other.khoa;
+    }
+	public String getFaculty() {
+		return khoa;
+	}
 	public GiaoVien(String id,String khoa, String firstName, String lastName, String gender,
             String dateOfBirth) {
 		super(firstName, lastName, gender, dateOfBirth);

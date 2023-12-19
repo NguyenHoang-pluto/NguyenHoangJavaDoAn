@@ -10,14 +10,13 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class DeThi extends HocPhan{
+public class DeThi extends HocPhan {
     private DanhSachCauHoi danhSachCauHoi = new DanhSachCauHoi();
     private String maDeThi;
     private String tenMonThi;
     private int thoiGian;
     private int soCau;
     private int index[];
-    
     public DeThi() {
         super();
     };
@@ -168,6 +167,20 @@ public class DeThi extends HocPhan{
         System.out.println("Không Tìm Thấy Câu Hỏi Trong Danh Sách Có ID Như Trên!");
         return;
     }
+    public void XoaCauHoiDeThiTheoID(String id) {
+        for(int i = 0; i < soCau; i++) {
+            if(danhSachCauHoi.getCh()[index[i]].getIdCau().equals(id)){  
+                for(int j = i; j < soCau - 1; j ++) {
+                    index[j] = index[j + 1];
+                }
+                soCau--;
+                System.out.println("Xóa Câu Hỏi Thành Công");        
+                return;   
+            }
+        }
+        System.out.println("Không Tìm Thấy Câu Hỏi Trong Danh Sách Có ID Như Trên!");
+        return;
+    }
     public void ThayDoiCauHoiDeThiID() {
         Scanner scanner = new Scanner(System.in);
         String idTmp;
@@ -175,6 +188,17 @@ public class DeThi extends HocPhan{
         idTmp = scanner.nextLine();
            for(int i = 0; i < soCau; i++) {
             if(danhSachCauHoi.getCh()[index[i]].getIdCau().equals(idTmp)){  
+               danhSachCauHoi.getCh()[index[i]].nhap();
+                System.out.println("Thay Đổi Câu Hỏi Thành Công!");        
+                return;   
+            }
+        }
+        System.out.println("Không Tìm Thấy Câu Hỏi Trong Danh Sách Có ID Như Trên!");
+        return;
+    }
+     public void ThayDoiCauHoiDeThiID(String id) {
+           for(int i = 0; i < soCau; i++) {
+            if(danhSachCauHoi.getCh()[index[i]].getIdCau().equals(id)){  
                danhSachCauHoi.getCh()[index[i]].nhap();
                 System.out.println("Thay Đổi Câu Hỏi Thành Công!");        
                 return;   
@@ -204,11 +228,44 @@ public class DeThi extends HocPhan{
          System.out.println("Xóa Câu Hỏi Thành Công!");        
          return;  
     }
+    
+        public void XoaCauHoiDeThiViTri(int Index){
+
+        if(Index<= 0) {
+            System.out.println("Vị Trí Câu Hỏi Trong Đề Thi Không Hợp Lệ!");
+            return;
+        }
+        if(Index > soCau ) {
+            System.out.println("Vị Trí Câu Hỏi Trong Đề Thi Không Hợp Lệ!");
+            return;
+        }
+        Index = Index - 1;
+         for(int j = Index; j < soCau - 1 ; j ++) {
+                index[j] = index[j + 1]; 
+        }
+         soCau--;
+         System.out.println("Xóa Câu Hỏi Thành Công!");        
+         return;  
+    }
         public void ThayDoiCauHoiDeThiViTri(){
         Scanner scanner = new Scanner(System.in);
         int indexTmp;
         System.out.println("Mời Nhập Vị Trí Câu Hỏi Cần Thay Đổi");
         indexTmp = scanner.nextInt();
+        if(indexTmp < 1) {
+            System.out.println("Vị Trí Câu Hỏi Trong Đề Thi Không Hợp Lệ!");
+            return;
+        }
+        if(indexTmp > soCau ) {
+            System.out.println("Vị Trí Câu Hỏi Trong Đề Thi Không Hợp Lệ!");
+            return;
+        }
+          indexTmp = indexTmp - 1;
+          danhSachCauHoi.getCh()[index[indexTmp]].nhap();
+          System.out.println("Thay Đổi Câu Hỏi Thành Công!");        
+          return;  
+    }
+      public void ThayDoiCauHoiDeThiViTri(int indexTmp){
         if(indexTmp < 1) {
             System.out.println("Vị Trí Câu Hỏi Trong Đề Thi Không Hợp Lệ!");
             return;
@@ -266,12 +323,50 @@ public class DeThi extends HocPhan{
         System.out.println("Thêm Thành Công Câu Hỏi Vào Đề Thi!"); 
         return;
     }
+        public void ThemCauHoiVaoDeThiViTri(int indexTmp,int listTmp) {
+        if(indexTmp < 1) {
+            System.out.println("Vị Trí Câu Hỏi Trong Đề Thi Không Hợp Lệ!");
+            return;
+        }
+        else if(indexTmp > soCau) {
+            System.out.println("Vị Trí Câu Hỏi Trong Đề Thi Không Hợp Lệ!");
+            return;
+        }
+        else {
+            indexTmp = indexTmp - 1;
+        }
+
+        if(listTmp < 1) {
+            System.out.println("Vị Trí Câu Hỏi Không Có Trong Danh Sách");
+            return;
+        }
+        else if(listTmp > danhSachCauHoi.getN()) {
+            System.out.println("Vị Trí Câu Hỏi Không Có Trong Danh Sách");
+            return;
+        } 
+        else{
+            listTmp = listTmp - 1;
+        }
+        for(int i = 0; i < soCau; i++) {
+            if(index[i] == listTmp){
+            System.out.println("Thêm Câu Hỏi Không Thành Công Do Đề Thi Sẽ Có Các Câu Hỏi Giống Nhau");
+            return;
+            }
+        }
+        for(int i = soCau ; i > indexTmp; i--) {
+            index[i] = index[i - 1];
+        }
+        soCau ++;
+        index[indexTmp] = listTmp ;
+        System.out.println("Thêm Thành Công Câu Hỏi Vào Đề Thi!"); 
+        return;
+    }
     public void ThemCauHoiVaoDeThiID() {
         Scanner scanner = new Scanner(System.in);
         int indexTmp;
         String listID;
         int indexList = -1;
-    
+        
         System.out.println("Mời Nhập Vị Trí Câu Hỏi Cần Thêm Vào Đề Thi!");
         indexTmp = scanner.nextInt();
         scanner.nextLine();
@@ -294,7 +389,10 @@ public class DeThi extends HocPhan{
                 break;
             }
         }
-    
+        if(indexList == -1) {
+            System.out.println("Câu Hỏi Không Có Trong Danh Sách");
+            return;
+        }
         // Kiểm tra câu hỏi đã tồn tại trong đề thi chưa
         for (int i = 0; i < soCau; i++) {
             if (index[i] == indexList) {
@@ -302,12 +400,46 @@ public class DeThi extends HocPhan{
                 return;
             }
         }
-    
         // Thêm câu hỏi vào đề thi
         for (int i = soCau ; i > indexTmp; i--) {
             index[i] = index[i - 1];
         }
+        soCau++;
+        index[indexTmp] = indexList;
+        System.out.println("Thêm Thành Công Câu Hỏi Vào Đề Thi!");
+    }
+     public void ThemCauHoiVaoDeThiID(int indexTmp, String listID) {
+        int indexList = -1;
+        // Kiểm tra vị trí hợp lệ
+        if (indexTmp < 1 || indexTmp > soCau) {
+            System.out.println("Vị Trí Câu Hỏi Trong Đề Thi Không Hợp Lệ!");
+            return;
+        } else {
+            indexTmp = indexTmp - 1;
+        }
     
+        // Tìm kiếm câu hỏi trong danh sách
+        for (int i = 0; i < danhSachCauHoi.getN(); i++) {
+            if (danhSachCauHoi.getCh()[i].getIdCau().equals(listID)) {
+                indexList = i;
+                break;
+            }
+        }
+        if(indexList == -1) {
+            System.out.println("Câu Hỏi Không Có Trong Danh Sách");
+            return;
+        }
+        // Kiểm tra câu hỏi đã tồn tại trong đề thi chưa
+        for (int i = 0; i < soCau; i++) {
+            if (index[i] == indexList) {
+                System.out.println("Câu Hỏi Đã Có Trong Đề Thi");
+                return;
+            }
+        }
+        // Thêm câu hỏi vào đề thi
+        for (int i = soCau ; i > indexTmp; i--) {
+            index[i] = index[i - 1];
+        }
         soCau++;
         index[indexTmp] = indexList;
         System.out.println("Thêm Thành Công Câu Hỏi Vào Đề Thi!");
@@ -372,8 +504,7 @@ public class DeThi extends HocPhan{
 			System.out.println("Loi khi mo File!");
 		}
        }
-    
-    
+
  public static void main(String[] args){
     DeThi deThi = new DeThi();
     deThi.NhapThongTinDeThi();

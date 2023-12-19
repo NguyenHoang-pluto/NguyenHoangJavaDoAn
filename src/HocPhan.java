@@ -5,12 +5,15 @@ public  class HocPhan {
     protected String MaHocPhan;
     protected String TenHocPhan;
     protected int TinChi;
-    
     HocPhan(){}
     public HocPhan(String MaHocPhan, String TenHocPhan, int TinChi){
         this.MaHocPhan = MaHocPhan;
         this.TenHocPhan = TenHocPhan;
         this.TinChi = TinChi;
+      
+    }
+    public void loaiHocPhan() {
+        System.out.println("");
     }
     public String getMaHocPhan() {
         return MaHocPhan;

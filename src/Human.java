@@ -23,7 +23,6 @@ public abstract class Human {
         this.gender = other.gender;
         this.dateOfBirth = other.dateOfBirth;
     }
-
     public void input() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("\nInput firstname: ");
@@ -35,7 +34,6 @@ public abstract class Human {
         System.out.print("\nInput date of birth: ");
         this.dateOfBirth = scanner.nextLine();
     }
-
     public void output() {
         System.out.print("Firstname: ");
         System.out.println(this.firstName);
@@ -74,7 +72,6 @@ public abstract class Human {
     public void setGender(String StudentGender) {
         gender = StudentGender;
     }
-
     public void setdateOfBirth(String StudentDateOfBirth) {
         dateOfBirth = StudentDateOfBirth;
     }

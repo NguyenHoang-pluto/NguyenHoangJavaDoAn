@@ -200,6 +200,8 @@ public class DanhSachCauHoi implements DuyetDS , File{
 			this.ch[index].xuat(); 
 	}
 	public void XoaPhanTuTheoViTri(int index){
+		if(index < 0) return;
+		if(index > this.getN()) return;
 		for(int i = index; i < n - 1; i++){
             ch[i] = ch[i + 1] ;
 		}
@@ -208,10 +210,12 @@ public class DanhSachCauHoi implements DuyetDS , File{
 	}
 	public void ThemPhanTuTheoViTri(int index){
 		if(index < 0){
-			index = 0;
+			System.out.println("Lỗi");
+			return;
 		}
-		if(index >= n) {
-		   index = n;
+		if(index > getN()) {
+		  System.out.println("Lỗi");
+		   return;
 		}
 		n++;
 		ch = Arrays.copyOf(ch, n);
@@ -226,10 +230,9 @@ public class DanhSachCauHoi implements DuyetDS , File{
 		ch[index] = new CauHoi();
         this.ch[index].nhap();
 	}
-	
 	public void XoaPhanTuTheoID(String ID){
 		for(int i = 0; i < n; i++){
-			if(TimKiemTheoID(ID) == 1) {
+			if(ch[i].getIdCau().equals(ID)) {
 				for(int j = i; j < n - 1; j++){
                 ch[j] = ch[j + 1] ;
 		        }

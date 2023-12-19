@@ -1,4 +1,88 @@
-Số lượng câu hỏi:25
+Số lượng câu hỏi:45
+MMT14
+Quá trình dữ liệu di chuyển từ hệ thống máy tính này sang hệ thống máy tính khác phải trải qua giai đoạn nào?
+Phân tích dữ liệu
+Lọc dữ liệu
+Nén dữ liệu
+Đóng gói
+Đóng gói
+MMT31
+Địa chỉ nào sau đây là địa chỉ quảng bá của mạng 192.168.25.128/28:
+192.168.25.255
+192.168.25.141
+192.168.25.180
+192.168.25.143
+192.168.25.143
+MMT6
+Thiết bị Hub cho phép:
+Kéo dài 1 nhánh LAN thông qua việc khuyếch đại tín hiệu truyền đến nó
+Ngăn không cho các packet thuộc loại Broadcast đi qua nó
+Giúp định tuyến cho các packets
+Kết nối nhiều máy tính lại với nhau để tạo thành một nhánh LAN (segment)
+Kết nối nhiều máy tính lại với nhau để tạo thành một nhánh LAN (segment)
+MMT17
+Địa chỉ IP 172.200.25.55/255.255.0.0:
+Thuộc lớp A
+Thuộc lớp C
+Là địa chỉ riêng
+Là địa chỉ broadcas
+Là địa chỉ riêng
+MMT26
+Trong mô hình TCP/IP thì giao thức IP nằm ở tầng:
+Application
+Transport
+Internet
+Nework Access
+Internet
+MMT4
+Thiết bị Router cho phép:
+Kéo dài 1nhánh LAN thông qua việc khuyếch đại tín hiệu truyền đến nó
+Kết nối nhiều máy tính lại với nhau
+Liên kết nhiều mạng LAN lại với nhau, đồng thời ngăn không cho các packet thuộc loại Broadcast đi qua nó và giúp việc định tuyến cho các packets
+Định tuyến cho các packet, chia nhỏ các Collision Domain nhưng không chia nhỏ các Broadcast Domain
+Định tuyến cho các packet, chia nhỏ các Collision Domain nhưng không chia nhỏ các Broadcast Domain
+MMT32
+Để kết nối trực tiếp hai máy tính với nhau ta có thể dùng:
+Cross - Cable
+Rollover Cable
+Straight Cable
+Không có loại nào
+Rollover Cable
+MMT49
+Cho địa chỉ IP 160.16.18.30 và mặt nạ mạng con (Subnet mask): 255.255.252.0. Địa chỉ IP quảng bá (Broadcast IP Address) tương ứng với địa chỉ IP và mặt nạ mạng con ở trên là?
+160.16.18.255
+160.16.19.255
+160.16.17.255
+160.16.18.254
+160.16.19.255
+MMT2
+Các chuẩn JPEG, TIFF, ASCII, EBCDIC do tầng nào của mô hình OSI định nghĩa:
+Transport
+Network
+Application
+Presentation
+Presentation
+MMT10
+Frame là dữ liệu ở tầng:
+Physical
+Network
+Data Link
+Transport
+Data Link
+MMT44
+Subnet Mask nào sau đây là hợp lệ:
+0.255.255.255
+0.0.0.255
+255.0.0.255
+255.255.255.0
+255.255.255.0
+MMT34
+Nếu 4 PCs kết nối với nhau thông qua HUB, cần bao nhiêu địa chỉ IP cho 5 trang thiết bị mạng này?
+5
+4
+2
+1
+4
 MMT19
 Địa chỉ nào sau đây thuộc lớp A:
 172.29.14.10
@@ -6,13 +90,111 @@ MMT19
 140.8.8.8
 203.5.6.7
 10.1.1.1
-MMT30
-Thiết bị mạng nào làm giảm bớt sự va chạm (collisions)?
-NIC
-Hub
-Repeater
-Switch
-Switch
+MMT23
+Có bao nhiêu vùng va chạm (collision domains) trong mạng gồm 88 máy tính, 10 Hub và 2 Repeater?
+100
+10
+12
+1 cả máy tính , Hub , repeater đều nằm trong 1 vùng xung đột
+1 cả máy tính , Hub , repeater đều nằm trong 1 vùng xung đột
+MMT18
+Modem dùng để:
+Giao tiếp với mạng
+Truyền dữ liệu đi xa
+Truyền dữ liệu trong mạng LAN
+a và b
+a và b
+MMT13
+Protocol nào được sử dụng cho Internet:
+TCP/IP
+Netbeui
+IPX/SPX
+DLC
+TCP/IP
+MMT9
+Khi dùng repeater để mở rộng các đoạn mạng, ta có thể:
+Đặt tối đa 4 đoạn mạng có máy tính
+Dùng tối đa 4 repeater
+Có tối đa 5 đoạn mạng
+Có tối đa 3 đoạn mạng
+Đặt tối đa 4 đoạn mạng có máy tính
+MMT33
+Một mạng con lớp C mượn 5 bit để chia Subnet thì Subnet Mask sẽ là:
+255.255.224.0
+255.255.255.1
+255.255.255.248
+255.255.255.128
+255.255.255.248
+MMT35
+Địa chỉ nào trong số những địa chỉ dưới đây là địa chỉ Broadcast của lớp C?
+190.12.253.255
+190.44.255.255
+221.218.253.255
+129.219.145.255
+190.12.253.255
+MMT16
+Chức năng chính của router là:
+Kết nối LAN với LAN
+Chia nhỏ broadcast domain
+Tất cả đều đúng
+Tất cả đều sai
+Chia nhỏ broadcast domain
+MMT25
+Phương thức nào mà trong đó cả hai bên đều có thể đồng thời gửi dữ liệu đi:
+Simplex
+Half – duplex
+Full – duplex
+Phương thức khác
+Full – duplex
+MMT41
+Byte đầu tiên của một địa chỉ IP có dạng: 11011011. Vậy nó thuộc lớp nào:
+Lớp A
+Lớp B
+Lớp C
+Lớp D
+Lớp C
+MMT12
+Các protocol TCP và UDP hoạt động ở tầng nào:
+Transport
+Network
+Application
+Presentation
+Transport
+MMT47
+Lợi ích của mạng máy tính mang lại là gì?
+Tăng khả năng phát hiện và chống thâm nhập mạng bất hợp pháp
+Rút ngắn thời gian trao đổi thông tin
+Giúp bảo vệ thông tin tại các nút mạng tốt hơn
+Tạo nhiều cơ hội thuận lợi cho công việc, kinh doanh,…
+Tạo nhiều cơ hội thuận lợi cho công việc, kinh doanh,…
+MMT22
+Độ dài tối đa cho phép khi sử dụng dây cáp mạng UTP là bao nhiêu mét?
+80
+100
+150
+50
+100
+MMT29
+Một mạng con lớp C mượn 2 bit để chia Subnet thì Subnet Mask sẽ là:
+255.255.224.0
+255.255.255.192
+255.255.255.240
+255.255.255.12
+255.255.255.192
+MMT38
+Lớp nào trong mô hình OSI đóng gói dữ liệu kèm theo IP HEADER?
+Physical
+Data Link
+Network
+Transport
+Network
+MMT11
+Công nghệ mạng LAN sử dụng phổ biến hiện nay là:
+Token Ring
+FDDI
+Ethernet
+ADSL
+Ethernet
 MMT24
 Dịch vụ nào cho phép người sử dụng từ một trạm làm việc của mình có thể đăng nhập vào một trạm ở xa qua mạng và có thể làm việc với hệ thống:
 Telnet
@@ -20,13 +202,27 @@ Email
 FTP
 WWW
 Telnet
-MMT28
-Dịch vụ mạng DNS dùng để:
-Cấp địa chỉ cho máy
-Phân giải tên, địa chỉ
-Truyền file và dữ liệu
-Gửi thư điện tử
-Phân giải tên, địa chỉ
+MMT45
+Trong địa chỉ IP, có 5 lớp A, B, C, D, E. Lớp B là lớp có dãy địa chỉ:
+192.0.0.0 tới 223.255.255.255
+240.0.0.0 tới 255.255.255.255
+128.0.0.0 tới 191.255.255.255
+224.0.0.0 tới 239.255.255.255
+128.0.0.0 tới 191.255.255.255
+MMT5
+Thiết bị Bridge cho phép:
+Ngăn không cho các packet thuộc loại Broadcast đi qua nó
+Kết nối 2 mạng LAN lại với nhau đồng thời đóng vai trò như một bộ lọc (filter): Chỉ cho phép các packet mà địa chỉ đích nằm ngoài nhánh LAN mà packet xuất phát, đi qua
+Giúp định tuyến cho các packets
+Tăng cường tín hiệu điện để mở rộng đoạn mạng
+Kết nối 2 mạng LAN lại với nhau đồng thời đóng vai trò như một bộ lọc (filter): Chỉ cho phép các packet mà địa chỉ đích nằm ngoài nhánh LAN mà packet xuất phát, đi qua
+MMT39
+Địa chỉ IP nào sau đây không được dùng để kết nối trực tiếp trong mạng Internet:
+126.0.0.1
+192.168.1.1
+200.100.1.1
+a, b, c đều sai
+192.168.1.1
 MMT50
 Cho địa chỉ IP 160.16.18.30 và mặt nạ mạng con (Subnet mask): 255.255.252.0. Dải địa chỉ IP tương ứng với địa chỉ IP và mặt nạ mạng con ở trên là?
 160.16.16.1 -> 160.16.18.254
@@ -41,20 +237,13 @@ Data
 Frame
 Packet
 Frame
-MMT47
-Lợi ích của mạng máy tính mang lại là gì?
-Tăng khả năng phát hiện và chống thâm nhập mạng bất hợp pháp
-Rút ngắn thời gian trao đổi thông tin
-Giúp bảo vệ thông tin tại các nút mạng tốt hơn
-Tạo nhiều cơ hội thuận lợi cho công việc, kinh doanh,…
-Tạo nhiều cơ hội thuận lợi cho công việc, kinh doanh,…
-MMT37
-Thứ tự đóng gói dữ liệu khi truyền qua mô hình OSI?
-Data, Packet, Segment, Bit, Frame
-Data , Packet, Segment, Frame, Bit
-Data, Segment, Packet, Frame, Bit
-Data, Segment, Frame, packet, Bit
-Data, Segment, Packet, Frame, Bit
+MMT21
+Điều gì đúng đối với mạng ngang hàng:
+Cung cấp sự an toàn và mức độ kiểm soát cao hơn mạng dựa trên máy phục vụ
+Được khuyến cáo sử dụng cho mạng có từ 10 người dùng trở xuống
+Đòi hỏi một máy phục vụ trung tâm có cấu hình mạnh
+Người dùng phân bố trong địa bàn rộng
+Được khuyến cáo sử dụng cho mạng có từ 10 người dùng trở xuống
 MMT27
 Đơn vị đo thông lượng là:
 Byte/s
@@ -62,6 +251,27 @@ Bit/s
 Byte/phút
 Bit/phút
 Bit/s
+MMT48
+Thiết bị nào hoạt động ở tầng Vật lý (Physical)?
+Switch
+Card mạng
+Hub và repeater
+Router
+Hub và repeater
+MMT37
+Thứ tự đóng gói dữ liệu khi truyền qua mô hình OSI?
+Data, Packet, Segment, Bit, Frame
+Data , Packet, Segment, Frame, Bit
+Data, Segment, Packet, Frame, Bit
+Data, Segment, Frame, packet, Bit
+Data, Segment, Packet, Frame, Bit
+MMT30
+Thiết bị mạng nào làm giảm bớt sự va chạm (collisions)?
+NIC
+Hub
+Repeater
+Switch
+Switch
 MMT7
 Khi dùng repeater để mở rộng các đoạn mạng, ta có thể:
 Đặt tối đa 4 đoạn mạng có máy tính
@@ -69,62 +279,34 @@ Có tối đa 3 đoạn mạng
 Có tối đa 5 đoạn mạng
 b và c
 Đặt tối đa 4 đoạn mạng có máy tính
-MMT12
-Các protocol TCP và UDP hoạt động ở tầng nào:
-Transport
-Network
-Application
-Presentation
-Transport
-MMT10
-Frame là dữ liệu ở tầng:
-Physical
-Network
-Data Link
-Transport
-Data Link
-MMT14
-Quá trình dữ liệu di chuyển từ hệ thống máy tính này sang hệ thống máy tính khác phải trải qua giai đoạn nào?
-Phân tích dữ liệu
-Lọc dữ liệu
-Nén dữ liệu
-Đóng gói
-Đóng gói
-MMT11
-Công nghệ mạng LAN sử dụng phổ biến hiện nay là:
-Token Ring
-FDDI
-Ethernet
-ADSL
-Ethernet
-MMT23
-Có bao nhiêu vùng va chạm (collision domains) trong mạng gồm 88 máy tính, 10 Hub và 2 Repeater?
-100
-10
-12
-1 cả máy tính , Hub , repeater đều nằm trong 1 vùng xung đột
-1 cả máy tính , Hub , repeater đều nằm trong 1 vùng xung đột
-MMT35
-Địa chỉ nào trong số những địa chỉ dưới đây là địa chỉ Broadcast của lớp C?
-190.12.253.255
-190.44.255.255
-221.218.253.255
-129.219.145.255
-190.12.253.255
-MMT29
-Một mạng con lớp C mượn 2 bit để chia Subnet thì Subnet Mask sẽ là:
-255.255.224.0
-255.255.255.192
-255.255.255.240
-255.255.255.12
-255.255.255.192
-MMT18
-Modem dùng để:
-Giao tiếp với mạng
-Truyền dữ liệu đi xa
-Truyền dữ liệu trong mạng LAN
-a và b
-a và b
+MMT36
+Số nhị phân nào dưới đây có giá trị là 164?
+10010010
+11000100
+10100100
+10101010
+10100100
+MMT28
+Dịch vụ mạng DNS dùng để:
+Cấp địa chỉ cho máy
+Phân giải tên, địa chỉ
+Truyền file và dữ liệu
+Gửi thư điện tử
+Phân giải tên, địa chỉ
+MMT43
+Lấy 1 địa chỉ lớp B để chia Subnet với Netmask 255.255.240.0, có bao nhiêu Subnets sử dụng được?
+2
+6
+14
+30
+14
+MMT3
+Tầng Network (cụ thể trong tầng IP) chịu trách nhiệm:
+Dựa trên địa chỉ IP đích có trong packet mà quyết định chọn đường thích hợp cho packet
+Quyết định đích đến của packet
+Phát hiện packet bị mất và cho gởi lại packet mất 
+Chia nhỏ packet thành các frame
+Dựa trên địa chỉ IP đích có trong packet mà quyết định chọn đường thích hợp cho packet
 MMT42
 Số nhị phân 01111100 có giá trị thập phân là:
 118
@@ -132,45 +314,3 @@ Số nhị phân 01111100 có giá trị thập phân là:
 124
 126
 124
-MMT9
-Khi dùng repeater để mở rộng các đoạn mạng, ta có thể:
-Đặt tối đa 4 đoạn mạng có máy tính
-Dùng tối đa 4 repeater
-Có tối đa 5 đoạn mạng
-Có tối đa 3 đoạn mạng
-Đặt tối đa 4 đoạn mạng có máy tính
-MMT41
-Byte đầu tiên của một địa chỉ IP có dạng: 11011011. Vậy nó thuộc lớp nào:
-Lớp A
-Lớp B
-Lớp C
-Lớp D
-Lớp C
-MMT17
-Địa chỉ IP 172.200.25.55/255.255.0.0:
-Thuộc lớp A
-Thuộc lớp C
-Là địa chỉ riêng
-Là địa chỉ broadcas
-Là địa chỉ riêng
-MMT16
-Chức năng chính của router là:
-Kết nối LAN với LAN
-Chia nhỏ broadcast domain
-Tất cả đều đúng
-Tất cả đều sai
-Chia nhỏ broadcast domain
-MMT46
-Mạng máy tính là gì?
-Các máy tính kết nối với nhau qua hệ thống cáp để trao đổi thông tin
-Các máy tính trao đổi thông tin với nhau theo tập giao thức mạng
-Các máy tính kết nối qua môi trường truyền tin và trao đổi thông tin theo một kiến trúc mạng xác định
-Các máy tính kết nối với nhau chia sẻ nguồn thông tin chung
-Các máy tính kết nối qua môi trường truyền tin và trao đổi thông tin theo một kiến trúc mạng xác định
-MMT32
-Để kết nối trực tiếp hai máy tính với nhau ta có thể dùng:
-Cross - Cable
-Rollover Cable
-Straight Cable
-Không có loại nào
-Rollover Cable

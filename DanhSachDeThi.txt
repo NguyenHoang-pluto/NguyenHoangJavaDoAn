@@ -1,28 +1,28 @@
-TH
+THMLN
 Triết học
-45
 25
+10
 MC
 Môn Chung 
-3
+1
 KTMT
-Kiến Trúc Máy tính
-45
+Kiến Trúc Máy Tính
 25
+10
 CNTT
 Công Nghệ Thông Tin
 4
 MMT
 Mạng Máy Tính
-45
 25
+45
 CNTT
 Công Nghệ Thông Tin
-2
+4
 KTVM
 Kinh Tế Vĩ Mô
-45
 25
+45
 QTKD
 Quản Trị Kinh Doanh
-3
+2

@@ -16,7 +16,7 @@ public class DanhSachGiaoVien implements File, DuyetDS {
 
 	}
 
-
+     
 	public DanhSachGiaoVien(GiaoVien[] giaoVien, int n) {
 		gv = giaoVien;
 		this.n = n;
@@ -108,7 +108,6 @@ public class DanhSachGiaoVien implements File, DuyetDS {
 		gv = Arrays.copyOf(gv, n);
 		return 1;
 	}
-
 	@Override
 	public void nhapDS() {
 		String ho;
@@ -146,7 +145,6 @@ public class DanhSachGiaoVien implements File, DuyetDS {
 		// TODO Auto-generated method stub
 
 	}
-
 	public void docFile(String nameFile) {
 		try (FileReader file = new FileReader(nameFile);
 				BufferedReader buffer = new BufferedReader(file)) {
@@ -223,14 +221,12 @@ public class DanhSachGiaoVien implements File, DuyetDS {
 					st.getId(), st.getFaculty(), st.getFirstName(), st.getLastName(), st.getGender(),
 					st.getdateOfBirth());
 		}
-
 		System.out.println(
 				"--------------------------------------------------------------------------------------");
 		System.out.println("|\t\t\t\t\tTotal teachers: " + this.n + "\t\t\t     |");
 		System.out.println(
 				"--------------------------------------------------------------------------------------");
 	}
-
 	public void addGiaoVien(GiaoVien other) {
 		GiaoVien st = new GiaoVien(other);
 		gv[n] = st;

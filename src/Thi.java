@@ -111,7 +111,7 @@ public class Thi {
     public void LamDeThi(){
         int True = 0;
         this.deThi.XuatThongTinDeThi();
-        // this.deThi.MonThi(doString);
+        //this.deThi.MonThi(doString);
         //this.deThi.NoiDungDeThi();
         int number = this.deThi.getSoCau();
         for(int i = 0; i < number; i++) {

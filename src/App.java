@@ -15,7 +15,7 @@ public class App {
     public static void clearScreen(){
         System.out.println();
         System.out.println("-----------------------------------------------------------------------------------------------------------");
-        System.out.println("-------------------------------------UNG DUNG QUAN LY THI TRAC NGHIEM--------------------------------------");
+        System.out.println("-------------------------------------Ứng Dụng Quản Lý Thi Trắc Nghiệm--------------------------------------");
         System.out.println();
         System.out.println();
         System.out.println();
@@ -25,18 +25,18 @@ public class App {
         do{
             System.out.println();
             System.out.println("-----------------------------------------------------------------------------------------------------------");
-            System.out.println("-------------------------------------UNG DUNG QUAN LY THI TRAC NGHIEM--------------------------------------");
+            System.out.println("-------------------------------------Ứng Dụng Quản Lý Thi Trắc Nghiệm--------------------------------------");
             System.out.println();
             System.out.println();
             System.out.println();
-            System.out.println("ID cua ban:");
+            System.out.println("Mã Số Sinh Viên Của Bạn:");
             id = Integer.parseInt(scan.nextLine());
-            System.out.println("Mat khau:");
+            System.out.println("Mật Khẩu:");
             m = Integer.parseInt(scan.nextLine());
             if(id <= DSSV.getN() && m == 12345678) {
             	MenuSinhVien();
             } else {
-            	System.out.println("Sai thông tin đăng nhập mời bạn nhập lại");
+            	System.out.println("Sai Thông Tin Đăng Nhập Mời Bạn Nhập Lại");
             }
         }while(true);
         
@@ -47,19 +47,19 @@ do{
         	
             System.out.println();
             System.out.println("-----------------------------------------------------------------------------------------------------------");
-            System.out.println("-------------------------------------UNG DUNG QUAN LY THI TRAC NGHIEM--------------------------------------");
+            System.out.println("-------------------------------------Ứng Dụng Quản Lý Thi Trắc Nghiệm---------------------------------------");
             System.out.println();
             System.out.println();
             System.out.println();
-            System.out.println("ID cua giang vien:");
+            System.out.println("Mã Số Của Giảng Viên:");
             id = Integer.parseInt(scan.nextLine());
-            System.out.println("Mat khau:");
+            System.out.println("Mật Khẩu:");
             m = Integer.parseInt(scan.nextLine());
             
             if(id <= DSGV.getN() && m == 123456) {
             	menuAdmin();
             } else {
-            	System.out.println("Sai thong tin đang nhập moi ban nhap lai");
+            	System.out.println("Sai Thông Tin Đăng Nhập Mời Bạn Nhập Lại");
             }
         }while(true);
     }
@@ -71,100 +71,125 @@ do{
     }
     
     public static void CapNhatThongTinSinhVien() {
-    	DSSV.updateInfo(id);
+    	//DSSV.updateInfo(id);
     	clearScreen();
     	MenuSinhVien();
     }
+    
     public static void MenuSinhVien(){
         Scanner scanner = new Scanner(System.in);
         int option;
         while (true) {
            System.out.println("1.Vào Thi");
            System.out.println("2.Xem Thông Tin");
-           System.out.println("3.Cập Nhật Thông Tin");
-           System.out.println("4.Đăng Xuất");
+           System.out.println("3.Đăng Xuất");
             option = scanner.nextInt();
            if(option == 1){
         	   while (true) {
-        	     System.out.println("Chọn Môn Bạn Muốn Thi"); 
-                 System.out.println("1.Môn Triết Học");
-                 System.out.println("2.Môn Kiến Trúc Máy Tính");
-                 System.out.println("3.Môn Mạng Máy Tính");
-                 System.out.println("4.Môn Kinh Tế Vĩ Mô");
-                 System.out.println("5.Quay Lai");
-                 System.out.println("6.Trang Chủ");
+        	     System.out.println("Chọn Học Phần Muốn Thi");
+                 System.out.println("1.Học Phần Tự Nhiên");
+                 System.out.println("2.Học Phần Xã Hội ");
+                 System.out.println("3.Quay Lại");
                  option = scanner.nextInt();
                  if(option == 1) {
-                    thi.getDetThi().setMaDeThi(DSDT.getMonThi()[0].getMaDeThi());
-                    thi.getDetThi().setTenMonThi(DSDT.getMonThi()[0].getTenMonThi());
-                    thi.getDetThi().setThoiGian(DSDT.getMonThi()[0].getThoiGian());
-                    thi.getDetThi().FileInPut("DeThiTrietHoc.txt");
-                    thi.LamDeThi();
-                    MenuSinhVien();
-                 } else if(option ==2) {
-                    thi.getDetThi().setMaDeThi(DSDT.getMonThi()[1].getMaDeThi());
+                    System.out.println("Chọn Môn Bạn Muốn Thi");
+                    System.out.println("1.Kiến Trúc Máy Tính");
+                    System.out.println("2.Mạng Máy Tính");
+                    System.out.println("3.Quay Lại");
+                    System.out.println("4.Trang Chủ");
+                    option = scanner.nextInt();
+                    if(option == 1) {
+                     thi.getDetThi().setMaDeThi(DSDT.getMonThi()[1].getMaDeThi());
                     thi.getDetThi().setTenMonThi(DSDT.getMonThi()[1].getTenMonThi());
                     thi.getDetThi().setThoiGian(DSDT.getMonThi()[1].getThoiGian());
                     thi.getDetThi().FileInPut("DeThiKienTrucMayTinh.txt");
                     thi.LamDeThi();
+                    DSKQ.WriteFile(thi.getDiemSo(), id, DSSV.getStudentArray()[id].getLastName(), DSSV.getStudentArray()[id].getFaculty(), "hk1");
+                    }
                     MenuSinhVien();
                  }
-                 else if(option==3) {
+                 else if(option == 2) {
                     thi.getDetThi().setMaDeThi(DSDT.getMonThi()[2].getMaDeThi());
                     thi.getDetThi().setTenMonThi(DSDT.getMonThi()[2].getTenMonThi());
                     thi.getDetThi().setThoiGian(DSDT.getMonThi()[2].getThoiGian());
                     thi.getDetThi().FileInPut("DeThiMangMayTinh.txt");
                     thi.LamDeThi();
+                    DSKQ.WriteFile(thi.getDiemSo(), id, DSSV.getStudentArray()[id].getLastName(), DSSV.getStudentArray()[id].getFaculty(), "hk2");
                     MenuSinhVien();
                  }
-                 else if(option==4) {
-                    thi.getDetThi().setMaDeThi(DSDT.getMonThi()[3].getMaDeThi());
-                    thi.getDetThi().setTenMonThi(DSDT.getMonThi()[3].getTenMonThi());
-                    thi.getDetThi().setThoiGian(DSDT.getMonThi()[3].getThoiGian());
-                    thi.getDetThi().FileInPut("DeThiKinhTeViMo.txt");
-                    thi.LamDeThi();
+                 else if(option == 3) {
                     MenuSinhVien();
                  }
-                 else if(option == 5) {
-                    MenuSinhVien();
+                 else if( option ==4) {
+                    ThongThiTracNghiem();
                  }
-                 else if(option == 6) {
-                    MenuSinhVien();
-                 }
-                 else{
-                    System.out.println("Lựa chọn không hợp lệ");
-                 }
+    
                }
-           } else if(option == 2){
+            }
+               else if(option ==2) {
+                   while(true){
+                    System.out.println("Chọn Môn Bạn Muốn Thi");
+                    System.out.println("1. Triết Học");
+                    System.out.println("2.Kinh Tế Vĩ Mô");
+                    System.out.println("3.Quay Lại");
+                    System.out.println("4.Trang Chủ");
+                     option = scanner.nextInt();
+                     if(option == 1) {
+                        thi.getDetThi().setMaDeThi(DSDT.getMonThi()[0].getMaDeThi());
+                        thi.getDetThi().setTenMonThi(DSDT.getMonThi()[0].getTenMonThi());
+                        thi.getDetThi().setThoiGian(DSDT.getMonThi()[0].getThoiGian());
+                        thi.getDetThi().FileInPut("DeThiTrietHoc.txt");
+                        thi.LamDeThi();
+                        DSKQ.WriteFile(thi.getDiemSo(), id, DSSV.getStudentArray()[id].getLastName(), DSSV.getStudentArray()[id].getFaculty(), "hk1");
+                        MenuSinhVien();
+                     }
+                     else if(option ==2) {
+                        thi.getDetThi().setMaDeThi(DSDT.getMonThi()[3].getMaDeThi());
+                        thi.getDetThi().setTenMonThi(DSDT.getMonThi()[3].getTenMonThi());
+                        thi.getDetThi().setThoiGian(DSDT.getMonThi()[3].getThoiGian());
+                        thi.getDetThi().FileInPut("DeThiKinhTeViMo.txt");
+                        thi.LamDeThi();
+                        DSKQ.WriteFile(thi.getDiemSo(), id, DSSV.getStudentArray()[id].getLastName(), DSSV.getStudentArray()[id].getFaculty(), "hk");
+                        MenuSinhVien();
+                     }
+                      else if(option == 3) {
+                        MenuSinhVien();
+                      }
+                      else if(option ==4 ) {
+                        ThongThiTracNghiem();
+                      }
+                   }
+                  
+               }
+           else if(option == 2){
             System.out.println("Thông Tin Sinh Viên");
             ThongTinSinhVien();
  
            } else if(option == 3){
-             System.out.println("Moi Cap nhat thong tin");
-             CapNhatThongTinSinhVien();
-        }  else if(option == 4){
             ThongThiTracNghiem();
         }
-         System.out.println("Khong Hop Le Moi Nhap Lai");
+         System.out.println("Không Hợp Lệ Xin Mời Nhập Lại");
         }
     }
     public static void menuAdmin() {
     	Scanner scanner = new Scanner(System.in);
         int option;
         while (true) {
-            clearScreen();
+        	clearScreen();
            System.out.println("1.Danh sách học sinh");
            System.out.println("2.Danh sách giảng viên");
            System.out.println("3.Danh sách câu hỏi");
            System.out.println("4.Cập nhật danh sách câu hỏi");
-           System.out.println("5.Cập nhật danh sách học sinh");
+           System.out.println("5.Thống Kê học sinh");
            System.out.println("6.Cập nhật danh sách giảng viên");
            System.out.println("7.Thống kê theo khoa");
            System.out.println("8.Thống kê theo kì thi");
            System.out.println("9.Thống kê theo khoản điểm");
            System.out.println("10.Thống kê giáo viên");
            System.out.println("11.Danh Sách Đề Thi");
-           System.out.println("12.Đăng xuất");
+           System.out.println("12.Thêm Học Phần Mới");
+           System.out.println("13.Trang Chủ");
+           System.out.println("14.Đăng Xuất");
             option = scanner.nextInt();
            if(option == 1){
         	   System.out.println("Danh sách học sinh");
@@ -172,50 +197,138 @@ do{
         	   DSSV.printList();
         	   menuAdmin();
            } else if(option == 2){
-               System.out.println("Danh sách giảng viên");
-               DSGV.xuatDS();
-               menuAdmin();
+            System.out.println("Danh sách giảng viên");
+            	DSGV.xuatDS();
+            	menuAdmin();
            } else if(option == 3){
-               DanhSachMonHoc();
-               menuAdmin();
+             DanhSachMonHoc();
+             menuAdmin();
+            menuAdmin();
            }  else if(option == 4) {
-        	    System.out.println("Cập nhật danh sách câu hỏi");
-             	ThayDoiNoiDungDanhSach();
+        	System.out.println("Cập nhật danh sách câu hỏi");
+        		ThayDoiNoiDungDanhSach();
         	}
-       		else if(option == 5) {
-        	System.out.println("Cập nhật danh sách học sinh");
+       			else if(option == 5) {
+                    DSSV.statistics();
        		}
-       		else if(option == 6) {
+       			else if(option == 6) {
         	System.out.println("Cập nhật danh sách giảng viên");
-		upDateGiangVien();
+        		upDateGiangVien();
         	}
-            else if(option == 7){
-                return;
-                       System.out.println("Nhập vào khoa mà bạn muốn thống kê điểm số");
-                       String khoa = scanner.next();
-                       DSKQ.khoaStatistic(khoa);
-                       menuAdmin();
-                   } else if(option == 8) {
-                       System.out.println("Nhập vào kì thi mà bạn muốn thống kê điểm số");
-                       String kithi = scanner.next();
-                       DSKQ.hkStatistic(kithi);
-                       menuAdmin();
-                   } else if(option == 9) {
-                       clearScreen();
-                       DSKQ.ReadFile();
-                       DSKQ.DisplayStatistic();
-                       menuAdmin();
-                   } else if (option == 10) {
-                       DSGV.statistics();
-                       menuAdmin();
-                   }
-            else if(option == 11) {
-                 System.out.println("Kết Thúc Chương Trình");
-                System.exit(0);
+           
+       		else if(option == 7){
+       			System.out.println("Nhập vào khoa mà bạn muốn thống kê điểm số");
+       			String khoa = scanner.next();
+       			DSKQ.khoaStatistic(khoa);
+       			menuAdmin();
+       		} else if(option == 8) {
+       			System.out.println("Nhập vào kì thi mà bạn muốn thống kê điểm số");
+       			String kithi = scanner.next();
+       			DSKQ.hkStatistic(kithi);
+       			menuAdmin();
+       		} else if(option == 9) {
+       			clearScreen();
+       			DSKQ.ReadFile();
+       			DSKQ.DisplayStatistic();
+       			menuAdmin();
+       		} else if (option == 10) {
+       			DSGV.statistics();
+       			menuAdmin();
+       		} else if(option == 11) {
+                DanhSachDeThi();
+                menuAdmin();
             }
-         System.out.println("Khong Hop Le Moi Nhap Lai");
+            else if(option == 12) {
+                HocPhan hp ;
+       			int temp ;
+       			while(true) {
+       				System.out.println("1.học phần xã hội");
+       				System.out.println("2. học phần tự nhiên");
+       				temp = scanner.nextInt();
+       				if (temp == 1) {
+       					hp = new hocphanxahoi();
+       					hp.NhapMaHocPhan();
+                        hp.NhapTenHocPhan();
+                        hp.NhapTinChi();
+       					hp.XuatThongTinHocPhan();
+       				} else if (temp == 2) {
+       					hp = new hocphantunhien();
+       					hp.capNhat();
+       					hp.XuatThongTinHocPhan();
+       				}
+       			}
+            }
+             else if(option == 13) {
+                menuAdmin();
+            }
+            else if(option == 14) {
+                ThongThiTracNghiem();
+            }
+         System.out.println("Không Hợp Lệ Xin Mời Nhập Lại");
         }
     }
+    public static void upDateGiangVien() {
+        Scanner scanner = new Scanner(System.in);
+        int option;
+        while (true) {
+            clearScreen();
+            System.out.println("1. Thêm giảng viên vào danh sách");
+            System.out.println("2. Xóa giảng viên ra khỏi danh sách bằng id");
+            System.out.println("3. Xóa giảng viên khỏi danh sách bằng tên");
+            System.out.println("4. Tìm kiếm giảng viên theo tên");
+            System.out.println("5. Tìm kiếm giảng viên theo id");
+            option = scanner.nextInt();
+            if(option == 1){
+               DSGV.themPT();
+               DSGV.xuatDS();
+               DSGV.ghiFile("danhsachgiaovien");
+               upDateGiangVien();
+            } else if(option == 2){
+                System.out.println("Nhập vào id giảng viên bạn muốn xóa");
+                int x = scanner.nextInt();
+                DSGV.xoaPT(x-1);
+                System.out.println("Danh sách giảng viên sao khi xóa là:");
+                DSGV.xuatDS();
+                DSGV.ghiFile();
+                upDateGiangVien();
+            } else if(option == 3){
+                System.out.println("Nhập vào tên giảng viên mà bạn muốn xóa");
+                String x = scanner.next();
+                DSGV.xoaPT(x);
+                System.out.println("Danh sách giảng viên sao khi xóa là:");
+                DSGV.xuatDS();
+                DSGV.ghiFile();
+                upDateGiangVien();
+              
+         }  else if(option == 4){
+             System.out.println("Nhập vào tên giảng viên bạn muốn tìm kiếm");
+             String x = scanner.next();
+             int temp;
+             if (DSGV.timKiem(x) != -1) {
+                 temp = DSGV.timKiem(x);
+                 System.out.println("Tìm được giảng viên có tên là "+ x +  " trong danh sách giảng viên");
+             } else {
+                 System.out.println("Không tồn tại giảng viên có tên là:" + x);
+             }
+             
+             
+             upDateGiangVien();
+         } else if(option == 5) {
+             System.out.println("Nhập vào id giãng viên bạn muốn tìm kiếm");
+             String x = scanner.next();
+             int temp;
+             if (DSGV.timKiemid(x) != -1) {
+                 temp = DSGV.timKiem(x);
+                 System.out.println("Tìm được giảng viên có id là "+ x +  " trong danh sách giảng viên");
+             } else {
+                 System.out.println("không tồn tại giảng viên có id là:"+ x);
+             }
+             upDateGiangVien();
+         }
+          System.out.println("Không Hợp Lệ Xin Mời Nhập Lại");
+        }
+        
+   }
     public static void DanhSachDeThi() {
         while(true) {
             System.out.println("===================================START===========================================");
@@ -417,6 +530,8 @@ do{
                 DSDT.getMonThi()[index].NhapSoCau();
                 DSDT.writeFile();
                 DSDT.ReadFile();
+                DSDT.getMonThi()[0].MonThi(documents);
+                DSDT.getMonThi()[0].FileOutPut("DeThi"+documents);
                 ChinhSuaThongTinDeThi(documents,index);
             } else if(luaChon == 2) {
                 DSDT.getMonThi()[index].NhapThoiGian();
@@ -723,12 +838,12 @@ do{
             switch (option) {
                 case 1:
                   DangNhap();
-                    return;
+                    // return;
                 case 2:
                     DangNhapAdmin();
-                    return;
+                    // return;
                 case 3:
-                   return;
+                   System.exit(1);
             }
             System.out.println("Khong hop le moi nhap lai");
         }while(true);
@@ -743,7 +858,7 @@ do{
         DSDT.getMonThi()[2].FileOutPut("DeThiMangMayTinh.txt");
         DSDT.getMonThi()[3].MonThi("KinhTeViMo.txt");
         DSDT.getMonThi()[3].FileOutPut("DeThiKinhTeViMo.txt");
-    	DSGV.docFile("danhsachgiaovien");
+    	DSGV.docFile("danhsachgiaovien.txt");
     	DSSV.readFile("student-data.txt");
         App app = new App();
         app.ThongThiTracNghiem();

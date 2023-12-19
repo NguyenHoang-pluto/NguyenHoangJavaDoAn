@@ -56,7 +56,7 @@ public class DanhSachKetQua {
 
     public static void WriteFile(float Diem, int id, String tenSV, String khoa, String kithi) {
         try {
-            FileWriter file = new FileWriter("danhsachketqua", true);
+            FileWriter file = new FileWriter("Danhsachketqua.txt", true);
             BufferedWriter buffer = new BufferedWriter(file);
             String diemString = Float.toString(Diem);
             String idString = Integer.toString(id);
@@ -81,7 +81,7 @@ public class DanhSachKetQua {
 
     public static void ReadFile() {
         try {
-            FileReader fileReader = new FileReader("danhsachketqua");
+            FileReader fileReader = new FileReader("Danhsachketqua.txt");
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
             String diem, id, tenSV, khoa, kithi;
@@ -95,7 +95,6 @@ public class DanhSachKetQua {
                 // Tăng biến đếm cho khoảng điểm tương ứng
                 float DiemValue = Float.parseFloat(diem);
                 UpdateDiemStatistic(DiemValue);
-
                 System.out.println("Diem: " + diem);
                 System.out.println("ID: " + id);
                 System.out.println("Ten SV: " + tenSV);
@@ -112,7 +111,7 @@ public class DanhSachKetQua {
     }
     public static void hkStatistic(String hk) {
     	 try {
-             FileReader fileReader = new FileReader("danhsachketqua");
+             FileReader fileReader = new FileReader("Danhsachketqua.txt");
              BufferedReader bufferedReader = new BufferedReader(fileReader);
 
              String diem, id, tenSV, khoa, kithi;
@@ -145,11 +144,10 @@ public class DanhSachKetQua {
 
     public static void khoaStatistic(String khoaStatistic) {
     	 try {
-             FileReader fileReader = new FileReader("danhsachketqua");
+             FileReader fileReader = new FileReader("Danhsachketqua.txt");
              BufferedReader bufferedReader = new BufferedReader(fileReader);
 
              String diem, id, tenSV, khoa, kithi;
-             int n = 0;
              while ((diem = bufferedReader.readLine()) != null
                      && (id = bufferedReader.readLine()) != null
                      && (tenSV = bufferedReader.readLine()) != null
@@ -184,7 +182,6 @@ public class DanhSachKetQua {
             }
         }
     }
-
     public static void DisplayStatistic() {
         System.out.println("Thong ke theo khoang diem:");
         for (int i = 0; i < diemRanges.length - 1; i++) {
