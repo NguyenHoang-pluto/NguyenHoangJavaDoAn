@@ -5,15 +5,16 @@ public  class HocPhan {
     protected String MaHocPhan;
     protected String TenHocPhan;
     protected int TinChi;
-    HocPhan(){}
-    public HocPhan(String MaHocPhan, String TenHocPhan, int TinChi){
+    protected String loai;
+
+    HocPhan() {
+    }
+
+    public HocPhan(String MaHocPhan, String TenHocPhan, int TinChi, String loai) {
         this.MaHocPhan = MaHocPhan;
         this.TenHocPhan = TenHocPhan;
         this.TinChi = TinChi;
-      
-    }
-    public void loaiHocPhan() {
-        System.out.println("");
+        this.loai = loai;
     }
     public String getMaHocPhan() {
         return MaHocPhan;
@@ -24,6 +25,14 @@ public  class HocPhan {
     public String getTenHocPhan() {
         return TenHocPhan;
     }
+
+    public String getLoai() {
+		return loai;
+	}
+
+	public void setLoai(String loai) {
+		this.loai = loai;
+	}
 
     public void setTenHocPhan(String TenHocPhan) {
         this.TenHocPhan = TenHocPhan;
@@ -102,6 +111,35 @@ public  class HocPhan {
     System.out.println("Mã Học Phần : "+ this.MaHocPhan);
     System.out.println("Tên Học Phần : "+ this.TenHocPhan);
     System.out.println("Số Tín Chỉ : "+ this.TinChi);
+    }
+    public void XuatThongTinHocPhan() {
+        System.out.println("Ma hoc phan : " + this.MaHocPhan);
+        System.out.println("Ten hoc phan : " + this.TenHocPhan);
+        System.out.println("So Tin Chi : " + this.TinChi);
+    }
+
+    public void GhiFile(String filename) throws IOException {
+    	try {
+			FileWriter file = new FileWriter(filename);
+			BufferedWriter buffer = new BufferedWriter(file);
+			String code = "1";
+			String tinchi =  String.valueOf(TinChi);
+				buffer.write(code);
+				buffer.newLine();
+				buffer.write(MaHocPhan);
+				buffer.newLine();
+				buffer.write(TenHocPhan);
+				buffer.newLine();
+				buffer.write(tinchi);
+				buffer.newLine();
+				buffer.write(loai);
+				buffer.newLine();
+			buffer.close();
+			file.close();
+			;
+		} catch (IOException e) {
+			System.out.println("Loi khi mo File!");
+		}
     }
         
   }
